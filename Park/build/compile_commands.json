@@ -1,0 +1,57 @@
+[
+{
+  "directory": "/home/joseph/Documents/c++/build",
+  "command": "/usr/bin/g++  -I/home/joseph/Documents/c++/Animals -I/home/joseph/Documents/c++/Trees -I/home/joseph/Documents/c++/Waters -I/home/joseph/Documents/c++/Factories  -std=c++11 -g -o CMakeFiles/factory_lib.dir/Park.cpp.o -c /home/joseph/Documents/c++/Park.cpp",
+  "file": "/home/joseph/Documents/c++/Park.cpp"
+},
+{
+  "directory": "/home/joseph/Documents/c++/build",
+  "command": "/usr/bin/g++  -I/home/joseph/Documents/c++/Animals -I/home/joseph/Documents/c++/Trees -I/home/joseph/Documents/c++/Waters -I/home/joseph/Documents/c++/Factories  -std=c++11 -g -o CMakeFiles/factory_lib.dir/Animals/dog.cpp.o -c /home/joseph/Documents/c++/Animals/dog.cpp",
+  "file": "/home/joseph/Documents/c++/Animals/dog.cpp"
+},
+{
+  "directory": "/home/joseph/Documents/c++/build",
+  "command": "/usr/bin/g++  -I/home/joseph/Documents/c++/Animals -I/home/joseph/Documents/c++/Trees -I/home/joseph/Documents/c++/Waters -I/home/joseph/Documents/c++/Factories  -std=c++11 -g -o CMakeFiles/factory_lib.dir/Animals/cat.cpp.o -c /home/joseph/Documents/c++/Animals/cat.cpp",
+  "file": "/home/joseph/Documents/c++/Animals/cat.cpp"
+},
+{
+  "directory": "/home/joseph/Documents/c++/build",
+  "command": "/usr/bin/g++  -I/home/joseph/Documents/c++/Animals -I/home/joseph/Documents/c++/Trees -I/home/joseph/Documents/c++/Waters -I/home/joseph/Documents/c++/Factories  -std=c++11 -g -o CMakeFiles/factory_lib.dir/Factories/ParkFactory.cpp.o -c /home/joseph/Documents/c++/Factories/ParkFactory.cpp",
+  "file": "/home/joseph/Documents/c++/Factories/ParkFactory.cpp"
+},
+{
+  "directory": "/home/joseph/Documents/c++/build",
+  "command": "/usr/bin/g++  -I/home/joseph/Documents/c++/Animals -I/home/joseph/Documents/c++/Trees -I/home/joseph/Documents/c++/Waters -I/home/joseph/Documents/c++/Factories  -std=c++11 -g -o CMakeFiles/factory_lib.dir/Factories/BalancedFactory.cpp.o -c /home/joseph/Documents/c++/Factories/BalancedFactory.cpp",
+  "file": "/home/joseph/Documents/c++/Factories/BalancedFactory.cpp"
+},
+{
+  "directory": "/home/joseph/Documents/c++/build",
+  "command": "/usr/bin/g++  -I/home/joseph/Documents/c++/Animals -I/home/joseph/Documents/c++/Trees -I/home/joseph/Documents/c++/Waters -I/home/joseph/Documents/c++/Factories  -std=c++11 -g -o CMakeFiles/factory_lib.dir/Factories/RandomFactory.cpp.o -c /home/joseph/Documents/c++/Factories/RandomFactory.cpp",
+  "file": "/home/joseph/Documents/c++/Factories/RandomFactory.cpp"
+},
+{
+  "directory": "/home/joseph/Documents/c++/build",
+  "command": "/usr/bin/g++  -I/home/joseph/Documents/c++/Animals -I/home/joseph/Documents/c++/Trees -I/home/joseph/Documents/c++/Waters -I/home/joseph/Documents/c++/Factories  -std=c++11 -g -o CMakeFiles/factory_lib.dir/Factories/TreeFactory.cpp.o -c /home/joseph/Documents/c++/Factories/TreeFactory.cpp",
+  "file": "/home/joseph/Documents/c++/Factories/TreeFactory.cpp"
+},
+{
+  "directory": "/home/joseph/Documents/c++/build",
+  "command": "/usr/bin/g++  -I/home/joseph/Documents/c++/Animals -I/home/joseph/Documents/c++/Trees -I/home/joseph/Documents/c++/Waters -I/home/joseph/Documents/c++/Factories  -std=c++11 -g -o CMakeFiles/factory_lib.dir/Trees/Tree.cpp.o -c /home/joseph/Documents/c++/Trees/Tree.cpp",
+  "file": "/home/joseph/Documents/c++/Trees/Tree.cpp"
+},
+{
+  "directory": "/home/joseph/Documents/c++/build",
+  "command": "/usr/bin/g++  -I/home/joseph/Documents/c++/Animals -I/home/joseph/Documents/c++/Trees -I/home/joseph/Documents/c++/Waters -I/home/joseph/Documents/c++/Factories  -std=c++11 -g -o CMakeFiles/factory_lib.dir/Trees/Birch.cpp.o -c /home/joseph/Documents/c++/Trees/Birch.cpp",
+  "file": "/home/joseph/Documents/c++/Trees/Birch.cpp"
+},
+{
+  "directory": "/home/joseph/Documents/c++/build",
+  "command": "/usr/bin/g++  -I/home/joseph/Documents/c++/Animals -I/home/joseph/Documents/c++/Trees -I/home/joseph/Documents/c++/Waters -I/home/joseph/Documents/c++/Factories  -std=c++11 -g -o CMakeFiles/factory_lib.dir/Trees/Cedar.cpp.o -c /home/joseph/Documents/c++/Trees/Cedar.cpp",
+  "file": "/home/joseph/Documents/c++/Trees/Cedar.cpp"
+},
+{
+  "directory": "/home/joseph/Documents/c++/build",
+  "command": "/usr/bin/g++  -I/home/joseph/Documents/c++/Animals -I/home/joseph/Documents/c++/Trees -I/home/joseph/Documents/c++/Waters -I/home/joseph/Documents/c++/Factories  -std=c++11 -g -o CMakeFiles/Factory_trial.dir/main.cpp.o -c /home/joseph/Documents/c++/main.cpp",
+  "file": "/home/joseph/Documents/c++/main.cpp"
+}
+]
