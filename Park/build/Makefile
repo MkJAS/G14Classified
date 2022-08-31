@@ -286,6 +286,30 @@ Factories/TreeFactory.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/factory_lib.dir/build.make CMakeFiles/factory_lib.dir/Factories/TreeFactory.cpp.s
 .PHONY : Factories/TreeFactory.cpp.s
 
+Observers/ParkRanger.o: Observers/ParkRanger.cpp.o
+.PHONY : Observers/ParkRanger.o
+
+# target to build an object file
+Observers/ParkRanger.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/factory_lib.dir/build.make CMakeFiles/factory_lib.dir/Observers/ParkRanger.cpp.o
+.PHONY : Observers/ParkRanger.cpp.o
+
+Observers/ParkRanger.i: Observers/ParkRanger.cpp.i
+.PHONY : Observers/ParkRanger.i
+
+# target to preprocess a source file
+Observers/ParkRanger.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/factory_lib.dir/build.make CMakeFiles/factory_lib.dir/Observers/ParkRanger.cpp.i
+.PHONY : Observers/ParkRanger.cpp.i
+
+Observers/ParkRanger.s: Observers/ParkRanger.cpp.s
+.PHONY : Observers/ParkRanger.s
+
+# target to generate assembly for a file
+Observers/ParkRanger.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/factory_lib.dir/build.make CMakeFiles/factory_lib.dir/Observers/ParkRanger.cpp.s
+.PHONY : Observers/ParkRanger.cpp.s
+
 Park.o: Park.cpp.o
 .PHONY : Park.o
 
@@ -434,6 +458,9 @@ help:
 	@echo "... Factories/TreeFactory.o"
 	@echo "... Factories/TreeFactory.i"
 	@echo "... Factories/TreeFactory.s"
+	@echo "... Observers/ParkRanger.o"
+	@echo "... Observers/ParkRanger.i"
+	@echo "... Observers/ParkRanger.s"
 	@echo "... Park.o"
 	@echo "... Park.i"
 	@echo "... Park.s"

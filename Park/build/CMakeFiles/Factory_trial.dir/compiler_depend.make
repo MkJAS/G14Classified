@@ -176,6 +176,7 @@ CMakeFiles/Factory_trial.dir/main.cpp.o: ../main.cpp \
   /usr/include/c++/7/bits/stl_vector.h \
   /usr/include/c++/7/bits/stl_bvector.h \
   /usr/include/c++/7/bits/vector.tcc \
+  ../Observers/Observers.h \
   ../Animals/cat.h \
   /usr/include/c++/7/math.h \
   /usr/include/c++/7/cmath \
@@ -258,6 +259,8 @@ CMakeFiles/Factory_trial.dir/main.cpp.o: ../main.cpp \
 /usr/include/x86_64-linux-gnu/bits/math-vector.h:
 
 ../Animals/cat.h:
+
+../Observers/Observers.h:
 
 /usr/include/c++/7/bits/vector.tcc:
 

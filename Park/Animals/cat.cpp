@@ -25,3 +25,11 @@ void Cat::setPosition(geometry_msgs::Point position)
 {
     _position = position;
 }
+
+void Cat::Move()
+{
+    _position.x = _position.x + 4;
+    _position.y = _position.y + 4;
+
+}
+

@@ -25,3 +25,9 @@ void Dog::setPosition(geometry_msgs::Point position)
 {
     _position = position;
 }
+
+void Dog::Move()
+{
+    _position.x = _position.x + 2;
+    _position.y = _position.y + 2;
+}

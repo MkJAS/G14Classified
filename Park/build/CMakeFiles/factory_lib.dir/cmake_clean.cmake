@@ -11,6 +11,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/factory_lib.dir/Factories/RandomFactory.cpp.o.d"
   "CMakeFiles/factory_lib.dir/Factories/TreeFactory.cpp.o"
   "CMakeFiles/factory_lib.dir/Factories/TreeFactory.cpp.o.d"
+  "CMakeFiles/factory_lib.dir/Observers/ParkRanger.cpp.o"
+  "CMakeFiles/factory_lib.dir/Observers/ParkRanger.cpp.o.d"
   "CMakeFiles/factory_lib.dir/Park.cpp.o"
   "CMakeFiles/factory_lib.dir/Park.cpp.o.d"
   "CMakeFiles/factory_lib.dir/Trees/Birch.cpp.o"

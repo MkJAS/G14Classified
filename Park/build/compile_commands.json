@@ -6,6 +6,11 @@
 },
 {
   "directory": "/home/joseph/git/Patterns/Park/build",
+  "command": "/usr/bin/g++  -I/home/joseph/git/Patterns/Park/Animals -I/home/joseph/git/Patterns/Park/Trees -I/home/joseph/git/Patterns/Park/Waters -I/home/joseph/git/Patterns/Park/Factories -I/home/joseph/git/Patterns/Park/..  -std=c++11 -g -o CMakeFiles/factory_lib.dir/Observers/ParkRanger.cpp.o -c /home/joseph/git/Patterns/Park/Observers/ParkRanger.cpp",
+  "file": "/home/joseph/git/Patterns/Park/Observers/ParkRanger.cpp"
+},
+{
+  "directory": "/home/joseph/git/Patterns/Park/build",
   "command": "/usr/bin/g++  -I/home/joseph/git/Patterns/Park/Animals -I/home/joseph/git/Patterns/Park/Trees -I/home/joseph/git/Patterns/Park/Waters -I/home/joseph/git/Patterns/Park/Factories -I/home/joseph/git/Patterns/Park/..  -std=c++11 -g -o CMakeFiles/factory_lib.dir/Animals/dog.cpp.o -c /home/joseph/git/Patterns/Park/Animals/dog.cpp",
   "file": "/home/joseph/git/Patterns/Park/Animals/dog.cpp"
 },
