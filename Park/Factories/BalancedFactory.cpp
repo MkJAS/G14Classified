@@ -1,5 +1,17 @@
 #include "BalancedFactory.h"
 
+BalancedFactory* BalancedFactory::_instance = 0;
+
+BalancedFactory* BalancedFactory::Instance()
+{
+    if(_instance == 0)
+    {
+        _instance = new BalancedFactory;
+    }
+    return _instance;
+}
+
+
 std::vector<Animal*> BalancedFactory::createAnimal(geometry_msgs::Point position)
 {
     double MAX_animals = 6;
@@ -32,4 +44,7 @@ std::vector<Animal*> BalancedFactory::createAnimal(geometry_msgs::Point position
     return animals;
 }
 
-           
+// BalancedFactory* BalancedFactory::getBalancedFactory()
+// {
+//     return new BalancedFactory;
+// }    

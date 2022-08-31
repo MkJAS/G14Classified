@@ -7,16 +7,25 @@
 #include "BalancedFactory.h"
 #include "RandomFactory.h"
 
-class ParkFactory:public TreeFactory
+class ParkFactory
 {
 public:
-    ParkFactory();   
+    static ParkFactory* Instance();
     Park buildPark();
 
+protected:
+    ParkFactory();
 
 private:
-    // AnimalFactory* _zoo;
-    TreeFactory _florist; 
+    std::vector<Animal*> createAnimal(geometry_msgs::Point position){};
+    std::vector<std::vector<Tree*>> spawnTrees(std::vector<std::string> treeSettings);
+    std::vector<std::vector<Animal*>> spawnAnimals(std::vector<std::string> animalSettings);
+
+    static ParkFactory* _instance;
+
+    TreeFactory*    _florist;
+    AnimalFactory*  _zoo;
+    Park            _park;
 };
 
 

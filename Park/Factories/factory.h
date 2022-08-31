@@ -8,6 +8,7 @@
 #include <stdio.h>
 #include <vector>
 #include <math.h>
+#include "../type.h"
 
 enum Type{BALANCED, RANDOM};
 
@@ -20,7 +21,9 @@ public:
     virtual std::vector<Animal*> createAnimal(geometry_msgs::Point position) = 0;
 
 protected:
+    
     geometry_msgs::Point _position;
+
 
 };
 

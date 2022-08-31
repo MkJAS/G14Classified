@@ -4,6 +4,7 @@
 #include <stdio.h>
 #include <iostream>
 #include <math.h>
+#include "../type.h"
 
 class Tree
 {
@@ -19,6 +20,8 @@ protected:
     std::string _colour;
     double _height;
     double _startingAge;
+    geometry_msgs::Point _position;
+    
 
 };
 

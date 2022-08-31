@@ -10,8 +10,11 @@ Birch::Birch()
 
 Birch::Birch(double startingAge)
 {
-    Birch();
     _startingAge = startingAge;
+    _species = "Birch";
+    _colour = "White";
+    _height = 5.6;
+    std::cout<<"Birch tree planted."<<std::endl;
 }
 
 double Birch::getHeight(double age)

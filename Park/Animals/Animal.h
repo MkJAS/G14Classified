@@ -3,14 +3,8 @@
 
 #include <iostream>
 #include <stdio.h>
+#include "../type.h"
 
-namespace geometry_msgs {
-
-    struct Point{
-        double x; /*!< x coordinate within global map (m) */
-        double y; /*!< y coordinate within global map (m) */
-    };
-}
 
 class Animal
 {

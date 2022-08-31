@@ -14,9 +14,13 @@ enum treeType{BIRCH, CEDAR};
 class TreeFactory
 {
 public:
-    Tree* createTree(treeType t, double startingAge = 0);
+    static TreeFactory* Instance();
+    std::vector<Tree*> createTree(treeType t, double amount = 1, double startingAge = 50);
 protected:
     TreeFactory(){};
+    // TreeFactory* getTreeFactory();
+private:
+    static TreeFactory* _instance; 
 };
 
 

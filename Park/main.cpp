@@ -44,11 +44,15 @@ int main()
 
 
     // TreeFactory florist;
-    // Tree* plant = florist.createTree(CEDAR);
-    // std::string type = plant->getSpecies();
+    // std::vector<Tree*> plant = florist.createTree(CEDAR);
+    // std::string type = plant[0]->getSpecies();
     // std::cout<<type<<std::endl;
 
-    ParkFactory aPark;
-    
+    TreeFactory* foo = TreeFactory::Instance();
+
+    ParkFactory*  Parkmaker = ParkFactory::Instance();
+    Park apark = Parkmaker->buildPark();
+    apark.getStats(0);
+     
 
 } 

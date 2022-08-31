@@ -10,9 +10,12 @@
 class RandomFactory:public AnimalFactory
 {
 public:
+    static RandomFactory* Instance();
     std::vector<Animal*> createAnimal(geometry_msgs::Point position);
 protected:
     RandomFactory(){};
+private:
+    static RandomFactory* _instance;
 };
 
 

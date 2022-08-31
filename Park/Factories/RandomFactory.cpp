@@ -1,5 +1,16 @@
 #include "RandomFactory.h"
 
+RandomFactory* RandomFactory::_instance = 0;
+
+RandomFactory* RandomFactory::Instance()
+{
+    if(_instance == 0)
+    {
+        _instance = new RandomFactory;
+    }
+    return _instance;
+}
+
 std::vector<Animal*> RandomFactory::createAnimal(geometry_msgs::Point position)
 {
     std::vector<Animal*> animals;

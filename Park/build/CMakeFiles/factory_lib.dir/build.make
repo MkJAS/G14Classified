@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/joseph/Documents/c++
+CMAKE_SOURCE_DIR = /home/joseph/git/Patterns/Park
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/joseph/Documents/c++/build
+CMAKE_BINARY_DIR = /home/joseph/git/Patterns/Park/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/factory_lib.dir/depend.make
@@ -72,142 +72,142 @@ include CMakeFiles/factory_lib.dir/flags.make
 CMakeFiles/factory_lib.dir/Park.cpp.o: CMakeFiles/factory_lib.dir/flags.make
 CMakeFiles/factory_lib.dir/Park.cpp.o: ../Park.cpp
 CMakeFiles/factory_lib.dir/Park.cpp.o: CMakeFiles/factory_lib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/joseph/Documents/c++/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/factory_lib.dir/Park.cpp.o"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/factory_lib.dir/Park.cpp.o -MF CMakeFiles/factory_lib.dir/Park.cpp.o.d -o CMakeFiles/factory_lib.dir/Park.cpp.o -c /home/joseph/Documents/c++/Park.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/joseph/git/Patterns/Park/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/factory_lib.dir/Park.cpp.o"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/factory_lib.dir/Park.cpp.o -MF CMakeFiles/factory_lib.dir/Park.cpp.o.d -o CMakeFiles/factory_lib.dir/Park.cpp.o -c /home/joseph/git/Patterns/Park/Park.cpp
 
 CMakeFiles/factory_lib.dir/Park.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/factory_lib.dir/Park.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/joseph/Documents/c++/Park.cpp > CMakeFiles/factory_lib.dir/Park.cpp.i
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/joseph/git/Patterns/Park/Park.cpp > CMakeFiles/factory_lib.dir/Park.cpp.i
 
 CMakeFiles/factory_lib.dir/Park.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/factory_lib.dir/Park.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/joseph/Documents/c++/Park.cpp -o CMakeFiles/factory_lib.dir/Park.cpp.s
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/joseph/git/Patterns/Park/Park.cpp -o CMakeFiles/factory_lib.dir/Park.cpp.s
 
 CMakeFiles/factory_lib.dir/Animals/dog.cpp.o: CMakeFiles/factory_lib.dir/flags.make
 CMakeFiles/factory_lib.dir/Animals/dog.cpp.o: ../Animals/dog.cpp
 CMakeFiles/factory_lib.dir/Animals/dog.cpp.o: CMakeFiles/factory_lib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/joseph/Documents/c++/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/factory_lib.dir/Animals/dog.cpp.o"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/factory_lib.dir/Animals/dog.cpp.o -MF CMakeFiles/factory_lib.dir/Animals/dog.cpp.o.d -o CMakeFiles/factory_lib.dir/Animals/dog.cpp.o -c /home/joseph/Documents/c++/Animals/dog.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/joseph/git/Patterns/Park/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/factory_lib.dir/Animals/dog.cpp.o"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/factory_lib.dir/Animals/dog.cpp.o -MF CMakeFiles/factory_lib.dir/Animals/dog.cpp.o.d -o CMakeFiles/factory_lib.dir/Animals/dog.cpp.o -c /home/joseph/git/Patterns/Park/Animals/dog.cpp
 
 CMakeFiles/factory_lib.dir/Animals/dog.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/factory_lib.dir/Animals/dog.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/joseph/Documents/c++/Animals/dog.cpp > CMakeFiles/factory_lib.dir/Animals/dog.cpp.i
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/joseph/git/Patterns/Park/Animals/dog.cpp > CMakeFiles/factory_lib.dir/Animals/dog.cpp.i
 
 CMakeFiles/factory_lib.dir/Animals/dog.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/factory_lib.dir/Animals/dog.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/joseph/Documents/c++/Animals/dog.cpp -o CMakeFiles/factory_lib.dir/Animals/dog.cpp.s
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/joseph/git/Patterns/Park/Animals/dog.cpp -o CMakeFiles/factory_lib.dir/Animals/dog.cpp.s
 
 CMakeFiles/factory_lib.dir/Animals/cat.cpp.o: CMakeFiles/factory_lib.dir/flags.make
 CMakeFiles/factory_lib.dir/Animals/cat.cpp.o: ../Animals/cat.cpp
 CMakeFiles/factory_lib.dir/Animals/cat.cpp.o: CMakeFiles/factory_lib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/joseph/Documents/c++/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/factory_lib.dir/Animals/cat.cpp.o"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/factory_lib.dir/Animals/cat.cpp.o -MF CMakeFiles/factory_lib.dir/Animals/cat.cpp.o.d -o CMakeFiles/factory_lib.dir/Animals/cat.cpp.o -c /home/joseph/Documents/c++/Animals/cat.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/joseph/git/Patterns/Park/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/factory_lib.dir/Animals/cat.cpp.o"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/factory_lib.dir/Animals/cat.cpp.o -MF CMakeFiles/factory_lib.dir/Animals/cat.cpp.o.d -o CMakeFiles/factory_lib.dir/Animals/cat.cpp.o -c /home/joseph/git/Patterns/Park/Animals/cat.cpp
 
 CMakeFiles/factory_lib.dir/Animals/cat.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/factory_lib.dir/Animals/cat.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/joseph/Documents/c++/Animals/cat.cpp > CMakeFiles/factory_lib.dir/Animals/cat.cpp.i
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/joseph/git/Patterns/Park/Animals/cat.cpp > CMakeFiles/factory_lib.dir/Animals/cat.cpp.i
 
 CMakeFiles/factory_lib.dir/Animals/cat.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/factory_lib.dir/Animals/cat.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/joseph/Documents/c++/Animals/cat.cpp -o CMakeFiles/factory_lib.dir/Animals/cat.cpp.s
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/joseph/git/Patterns/Park/Animals/cat.cpp -o CMakeFiles/factory_lib.dir/Animals/cat.cpp.s
 
 CMakeFiles/factory_lib.dir/Factories/ParkFactory.cpp.o: CMakeFiles/factory_lib.dir/flags.make
 CMakeFiles/factory_lib.dir/Factories/ParkFactory.cpp.o: ../Factories/ParkFactory.cpp
 CMakeFiles/factory_lib.dir/Factories/ParkFactory.cpp.o: CMakeFiles/factory_lib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/joseph/Documents/c++/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/factory_lib.dir/Factories/ParkFactory.cpp.o"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/factory_lib.dir/Factories/ParkFactory.cpp.o -MF CMakeFiles/factory_lib.dir/Factories/ParkFactory.cpp.o.d -o CMakeFiles/factory_lib.dir/Factories/ParkFactory.cpp.o -c /home/joseph/Documents/c++/Factories/ParkFactory.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/joseph/git/Patterns/Park/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/factory_lib.dir/Factories/ParkFactory.cpp.o"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/factory_lib.dir/Factories/ParkFactory.cpp.o -MF CMakeFiles/factory_lib.dir/Factories/ParkFactory.cpp.o.d -o CMakeFiles/factory_lib.dir/Factories/ParkFactory.cpp.o -c /home/joseph/git/Patterns/Park/Factories/ParkFactory.cpp
 
 CMakeFiles/factory_lib.dir/Factories/ParkFactory.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/factory_lib.dir/Factories/ParkFactory.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/joseph/Documents/c++/Factories/ParkFactory.cpp > CMakeFiles/factory_lib.dir/Factories/ParkFactory.cpp.i
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/joseph/git/Patterns/Park/Factories/ParkFactory.cpp > CMakeFiles/factory_lib.dir/Factories/ParkFactory.cpp.i
 
 CMakeFiles/factory_lib.dir/Factories/ParkFactory.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/factory_lib.dir/Factories/ParkFactory.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/joseph/Documents/c++/Factories/ParkFactory.cpp -o CMakeFiles/factory_lib.dir/Factories/ParkFactory.cpp.s
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/joseph/git/Patterns/Park/Factories/ParkFactory.cpp -o CMakeFiles/factory_lib.dir/Factories/ParkFactory.cpp.s
 
 CMakeFiles/factory_lib.dir/Factories/BalancedFactory.cpp.o: CMakeFiles/factory_lib.dir/flags.make
 CMakeFiles/factory_lib.dir/Factories/BalancedFactory.cpp.o: ../Factories/BalancedFactory.cpp
 CMakeFiles/factory_lib.dir/Factories/BalancedFactory.cpp.o: CMakeFiles/factory_lib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/joseph/Documents/c++/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/factory_lib.dir/Factories/BalancedFactory.cpp.o"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/factory_lib.dir/Factories/BalancedFactory.cpp.o -MF CMakeFiles/factory_lib.dir/Factories/BalancedFactory.cpp.o.d -o CMakeFiles/factory_lib.dir/Factories/BalancedFactory.cpp.o -c /home/joseph/Documents/c++/Factories/BalancedFactory.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/joseph/git/Patterns/Park/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/factory_lib.dir/Factories/BalancedFactory.cpp.o"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/factory_lib.dir/Factories/BalancedFactory.cpp.o -MF CMakeFiles/factory_lib.dir/Factories/BalancedFactory.cpp.o.d -o CMakeFiles/factory_lib.dir/Factories/BalancedFactory.cpp.o -c /home/joseph/git/Patterns/Park/Factories/BalancedFactory.cpp
 
 CMakeFiles/factory_lib.dir/Factories/BalancedFactory.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/factory_lib.dir/Factories/BalancedFactory.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/joseph/Documents/c++/Factories/BalancedFactory.cpp > CMakeFiles/factory_lib.dir/Factories/BalancedFactory.cpp.i
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/joseph/git/Patterns/Park/Factories/BalancedFactory.cpp > CMakeFiles/factory_lib.dir/Factories/BalancedFactory.cpp.i
 
 CMakeFiles/factory_lib.dir/Factories/BalancedFactory.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/factory_lib.dir/Factories/BalancedFactory.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/joseph/Documents/c++/Factories/BalancedFactory.cpp -o CMakeFiles/factory_lib.dir/Factories/BalancedFactory.cpp.s
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/joseph/git/Patterns/Park/Factories/BalancedFactory.cpp -o CMakeFiles/factory_lib.dir/Factories/BalancedFactory.cpp.s
 
 CMakeFiles/factory_lib.dir/Factories/RandomFactory.cpp.o: CMakeFiles/factory_lib.dir/flags.make
 CMakeFiles/factory_lib.dir/Factories/RandomFactory.cpp.o: ../Factories/RandomFactory.cpp
 CMakeFiles/factory_lib.dir/Factories/RandomFactory.cpp.o: CMakeFiles/factory_lib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/joseph/Documents/c++/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/factory_lib.dir/Factories/RandomFactory.cpp.o"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/factory_lib.dir/Factories/RandomFactory.cpp.o -MF CMakeFiles/factory_lib.dir/Factories/RandomFactory.cpp.o.d -o CMakeFiles/factory_lib.dir/Factories/RandomFactory.cpp.o -c /home/joseph/Documents/c++/Factories/RandomFactory.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/joseph/git/Patterns/Park/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/factory_lib.dir/Factories/RandomFactory.cpp.o"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/factory_lib.dir/Factories/RandomFactory.cpp.o -MF CMakeFiles/factory_lib.dir/Factories/RandomFactory.cpp.o.d -o CMakeFiles/factory_lib.dir/Factories/RandomFactory.cpp.o -c /home/joseph/git/Patterns/Park/Factories/RandomFactory.cpp
 
 CMakeFiles/factory_lib.dir/Factories/RandomFactory.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/factory_lib.dir/Factories/RandomFactory.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/joseph/Documents/c++/Factories/RandomFactory.cpp > CMakeFiles/factory_lib.dir/Factories/RandomFactory.cpp.i
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/joseph/git/Patterns/Park/Factories/RandomFactory.cpp > CMakeFiles/factory_lib.dir/Factories/RandomFactory.cpp.i
 
 CMakeFiles/factory_lib.dir/Factories/RandomFactory.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/factory_lib.dir/Factories/RandomFactory.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/joseph/Documents/c++/Factories/RandomFactory.cpp -o CMakeFiles/factory_lib.dir/Factories/RandomFactory.cpp.s
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/joseph/git/Patterns/Park/Factories/RandomFactory.cpp -o CMakeFiles/factory_lib.dir/Factories/RandomFactory.cpp.s
 
 CMakeFiles/factory_lib.dir/Factories/TreeFactory.cpp.o: CMakeFiles/factory_lib.dir/flags.make
 CMakeFiles/factory_lib.dir/Factories/TreeFactory.cpp.o: ../Factories/TreeFactory.cpp
 CMakeFiles/factory_lib.dir/Factories/TreeFactory.cpp.o: CMakeFiles/factory_lib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/joseph/Documents/c++/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/factory_lib.dir/Factories/TreeFactory.cpp.o"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/factory_lib.dir/Factories/TreeFactory.cpp.o -MF CMakeFiles/factory_lib.dir/Factories/TreeFactory.cpp.o.d -o CMakeFiles/factory_lib.dir/Factories/TreeFactory.cpp.o -c /home/joseph/Documents/c++/Factories/TreeFactory.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/joseph/git/Patterns/Park/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/factory_lib.dir/Factories/TreeFactory.cpp.o"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/factory_lib.dir/Factories/TreeFactory.cpp.o -MF CMakeFiles/factory_lib.dir/Factories/TreeFactory.cpp.o.d -o CMakeFiles/factory_lib.dir/Factories/TreeFactory.cpp.o -c /home/joseph/git/Patterns/Park/Factories/TreeFactory.cpp
 
 CMakeFiles/factory_lib.dir/Factories/TreeFactory.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/factory_lib.dir/Factories/TreeFactory.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/joseph/Documents/c++/Factories/TreeFactory.cpp > CMakeFiles/factory_lib.dir/Factories/TreeFactory.cpp.i
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/joseph/git/Patterns/Park/Factories/TreeFactory.cpp > CMakeFiles/factory_lib.dir/Factories/TreeFactory.cpp.i
 
 CMakeFiles/factory_lib.dir/Factories/TreeFactory.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/factory_lib.dir/Factories/TreeFactory.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/joseph/Documents/c++/Factories/TreeFactory.cpp -o CMakeFiles/factory_lib.dir/Factories/TreeFactory.cpp.s
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/joseph/git/Patterns/Park/Factories/TreeFactory.cpp -o CMakeFiles/factory_lib.dir/Factories/TreeFactory.cpp.s
 
 CMakeFiles/factory_lib.dir/Trees/Tree.cpp.o: CMakeFiles/factory_lib.dir/flags.make
 CMakeFiles/factory_lib.dir/Trees/Tree.cpp.o: ../Trees/Tree.cpp
 CMakeFiles/factory_lib.dir/Trees/Tree.cpp.o: CMakeFiles/factory_lib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/joseph/Documents/c++/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/factory_lib.dir/Trees/Tree.cpp.o"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/factory_lib.dir/Trees/Tree.cpp.o -MF CMakeFiles/factory_lib.dir/Trees/Tree.cpp.o.d -o CMakeFiles/factory_lib.dir/Trees/Tree.cpp.o -c /home/joseph/Documents/c++/Trees/Tree.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/joseph/git/Patterns/Park/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/factory_lib.dir/Trees/Tree.cpp.o"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/factory_lib.dir/Trees/Tree.cpp.o -MF CMakeFiles/factory_lib.dir/Trees/Tree.cpp.o.d -o CMakeFiles/factory_lib.dir/Trees/Tree.cpp.o -c /home/joseph/git/Patterns/Park/Trees/Tree.cpp
 
 CMakeFiles/factory_lib.dir/Trees/Tree.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/factory_lib.dir/Trees/Tree.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/joseph/Documents/c++/Trees/Tree.cpp > CMakeFiles/factory_lib.dir/Trees/Tree.cpp.i
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/joseph/git/Patterns/Park/Trees/Tree.cpp > CMakeFiles/factory_lib.dir/Trees/Tree.cpp.i
 
 CMakeFiles/factory_lib.dir/Trees/Tree.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/factory_lib.dir/Trees/Tree.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/joseph/Documents/c++/Trees/Tree.cpp -o CMakeFiles/factory_lib.dir/Trees/Tree.cpp.s
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/joseph/git/Patterns/Park/Trees/Tree.cpp -o CMakeFiles/factory_lib.dir/Trees/Tree.cpp.s
 
 CMakeFiles/factory_lib.dir/Trees/Birch.cpp.o: CMakeFiles/factory_lib.dir/flags.make
 CMakeFiles/factory_lib.dir/Trees/Birch.cpp.o: ../Trees/Birch.cpp
 CMakeFiles/factory_lib.dir/Trees/Birch.cpp.o: CMakeFiles/factory_lib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/joseph/Documents/c++/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/factory_lib.dir/Trees/Birch.cpp.o"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/factory_lib.dir/Trees/Birch.cpp.o -MF CMakeFiles/factory_lib.dir/Trees/Birch.cpp.o.d -o CMakeFiles/factory_lib.dir/Trees/Birch.cpp.o -c /home/joseph/Documents/c++/Trees/Birch.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/joseph/git/Patterns/Park/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/factory_lib.dir/Trees/Birch.cpp.o"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/factory_lib.dir/Trees/Birch.cpp.o -MF CMakeFiles/factory_lib.dir/Trees/Birch.cpp.o.d -o CMakeFiles/factory_lib.dir/Trees/Birch.cpp.o -c /home/joseph/git/Patterns/Park/Trees/Birch.cpp
 
 CMakeFiles/factory_lib.dir/Trees/Birch.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/factory_lib.dir/Trees/Birch.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/joseph/Documents/c++/Trees/Birch.cpp > CMakeFiles/factory_lib.dir/Trees/Birch.cpp.i
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/joseph/git/Patterns/Park/Trees/Birch.cpp > CMakeFiles/factory_lib.dir/Trees/Birch.cpp.i
 
 CMakeFiles/factory_lib.dir/Trees/Birch.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/factory_lib.dir/Trees/Birch.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/joseph/Documents/c++/Trees/Birch.cpp -o CMakeFiles/factory_lib.dir/Trees/Birch.cpp.s
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/joseph/git/Patterns/Park/Trees/Birch.cpp -o CMakeFiles/factory_lib.dir/Trees/Birch.cpp.s
 
 CMakeFiles/factory_lib.dir/Trees/Cedar.cpp.o: CMakeFiles/factory_lib.dir/flags.make
 CMakeFiles/factory_lib.dir/Trees/Cedar.cpp.o: ../Trees/Cedar.cpp
 CMakeFiles/factory_lib.dir/Trees/Cedar.cpp.o: CMakeFiles/factory_lib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/joseph/Documents/c++/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/factory_lib.dir/Trees/Cedar.cpp.o"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/factory_lib.dir/Trees/Cedar.cpp.o -MF CMakeFiles/factory_lib.dir/Trees/Cedar.cpp.o.d -o CMakeFiles/factory_lib.dir/Trees/Cedar.cpp.o -c /home/joseph/Documents/c++/Trees/Cedar.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/joseph/git/Patterns/Park/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/factory_lib.dir/Trees/Cedar.cpp.o"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/factory_lib.dir/Trees/Cedar.cpp.o -MF CMakeFiles/factory_lib.dir/Trees/Cedar.cpp.o.d -o CMakeFiles/factory_lib.dir/Trees/Cedar.cpp.o -c /home/joseph/git/Patterns/Park/Trees/Cedar.cpp
 
 CMakeFiles/factory_lib.dir/Trees/Cedar.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/factory_lib.dir/Trees/Cedar.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/joseph/Documents/c++/Trees/Cedar.cpp > CMakeFiles/factory_lib.dir/Trees/Cedar.cpp.i
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/joseph/git/Patterns/Park/Trees/Cedar.cpp > CMakeFiles/factory_lib.dir/Trees/Cedar.cpp.i
 
 CMakeFiles/factory_lib.dir/Trees/Cedar.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/factory_lib.dir/Trees/Cedar.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/joseph/Documents/c++/Trees/Cedar.cpp -o CMakeFiles/factory_lib.dir/Trees/Cedar.cpp.s
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/joseph/git/Patterns/Park/Trees/Cedar.cpp -o CMakeFiles/factory_lib.dir/Trees/Cedar.cpp.s
 
 # Object files for target factory_lib
 factory_lib_OBJECTS = \
@@ -237,7 +237,7 @@ libfactory_lib.a: CMakeFiles/factory_lib.dir/Trees/Birch.cpp.o
 libfactory_lib.a: CMakeFiles/factory_lib.dir/Trees/Cedar.cpp.o
 libfactory_lib.a: CMakeFiles/factory_lib.dir/build.make
 libfactory_lib.a: CMakeFiles/factory_lib.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/joseph/Documents/c++/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Linking CXX static library libfactory_lib.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/joseph/git/Patterns/Park/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Linking CXX static library libfactory_lib.a"
 	$(CMAKE_COMMAND) -P CMakeFiles/factory_lib.dir/cmake_clean_target.cmake
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/factory_lib.dir/link.txt --verbose=$(VERBOSE)
 
@@ -250,6 +250,6 @@ CMakeFiles/factory_lib.dir/clean:
 .PHONY : CMakeFiles/factory_lib.dir/clean
 
 CMakeFiles/factory_lib.dir/depend:
-	cd /home/joseph/Documents/c++/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/joseph/Documents/c++ /home/joseph/Documents/c++ /home/joseph/Documents/c++/build /home/joseph/Documents/c++/build /home/joseph/Documents/c++/build/CMakeFiles/factory_lib.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/joseph/git/Patterns/Park/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/joseph/git/Patterns/Park /home/joseph/git/Patterns/Park /home/joseph/git/Patterns/Park/build /home/joseph/git/Patterns/Park/build /home/joseph/git/Patterns/Park/build/CMakeFiles/factory_lib.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/factory_lib.dir/depend
 

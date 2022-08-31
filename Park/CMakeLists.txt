@@ -10,12 +10,13 @@ include_directories(
     Trees
     Waters
     Factories
+    ../
 )
 
 # CMake will create your library, add the cpp files needed
 add_library(factory_lib STATIC Park.cpp Animals/dog.cpp Animals/cat.cpp Factories/ParkFactory.cpp Factories/BalancedFactory.cpp 
             Factories/RandomFactory.cpp Factories/TreeFactory.cpp Trees/Tree.cpp Trees/Birch.cpp Trees/Cedar.cpp)
-set_target_properties(factory_lib  PROPERTIES PUBLIC_HEADER "")
+set_target_properties(factory_lib  PROPERTIES PUBLIC_HEADER "type.h")
 
 
 # CMake will create executable add the cpp files needed

@@ -10,7 +10,10 @@ Cedar::Cedar()
 
 Cedar::Cedar(double startingAge)
 {
-    Cedar();
+    _species = "Cedar";
+    _colour = "Dark Brown";
+    _height = 12.8;
+    std::cout<<"Cedar tree planted."<<std::endl;
     _startingAge = startingAge;
 }
 

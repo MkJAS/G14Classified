@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/joseph/Documents/c++
+CMAKE_SOURCE_DIR = /home/joseph/git/Patterns/Park
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/joseph/Documents/c++/build
+CMAKE_BINARY_DIR = /home/joseph/git/Patterns/Park/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,9 +87,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/joseph/Documents/c++/build/CMakeFiles /home/joseph/Documents/c++/build//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/joseph/git/Patterns/Park/build/CMakeFiles /home/joseph/git/Patterns/Park/build//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/joseph/Documents/c++/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/joseph/git/Patterns/Park/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
