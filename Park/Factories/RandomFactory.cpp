@@ -11,9 +11,9 @@ RandomFactory* RandomFactory::Instance()
     return _instance;
 }
 
-std::vector<Animal*> RandomFactory::createAnimal(geometry_msgs::Point position)
+std::vector<std::shared_ptr<Animal>> RandomFactory::createAnimal(geometry_msgs::Point position)
 {
-    std::vector<Animal*> animals;
+    std::vector<std::shared_ptr<Animal>> animals;
     long int seed = std::chrono::system_clock::now().time_since_epoch().count();
     std::default_random_engine gen(seed);
     std::normal_distribution<double> datarnd(3,10);
@@ -26,7 +26,7 @@ std::vector<Animal*> RandomFactory::createAnimal(geometry_msgs::Point position)
     amount = round(amount);
     for (int i=0;i<amount;i++)
     {
-        animals.push_back(new Dog);
+        animals.push_back(std::shared_ptr<Dog> (new Dog));
     }
 
     amount = datarnd(gen);
@@ -37,7 +37,7 @@ std::vector<Animal*> RandomFactory::createAnimal(geometry_msgs::Point position)
     amount = round(amount);
     for (int i=0;i<amount;i++)
     {
-        animals.push_back(new Cat);
+        animals.push_back(std::shared_ptr<Cat> (new Cat));
     }
     return animals;
 }

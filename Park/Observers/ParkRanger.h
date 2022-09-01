@@ -8,10 +8,10 @@
 class ParkRanger:public Observer
 {
 public:
-    ParkRanger(Park* park);
+    ParkRanger(std::shared_ptr<Park> park);
     void update(Animal *theAnimal);
 private:
-    Park* _park;    
+    std::shared_ptr<Park> _park;    
 };
 
 

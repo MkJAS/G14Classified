@@ -2,6 +2,7 @@
 #define TYPE_H
 
 #include <vector>
+#include <memory>
 
 class Animal;
 class Tree;
@@ -16,8 +17,8 @@ namespace geometry_msgs {
 
 struct Quadrant
 {
-    std::vector<Animal*>     wildlife;
-    std::vector<Tree*>       plantlife;
+    std::vector<std::shared_ptr<Animal>>     wildlife;
+    std::vector<std::shared_ptr<Tree>>       plantlife;
     geometry_msgs::Point    centre;
 };
 

@@ -7,10 +7,9 @@
 class BalancedFactory:public AnimalFactory
 {
 public:
-    std::vector<Animal*> createAnimal(geometry_msgs::Point);
+    std::vector<std::shared_ptr<Animal>> createAnimal(geometry_msgs::Point);
     static BalancedFactory* Instance();
 protected:
-    // BalancedFactory* getBalancedFactory();
     BalancedFactory(){};
 private:
     int num;

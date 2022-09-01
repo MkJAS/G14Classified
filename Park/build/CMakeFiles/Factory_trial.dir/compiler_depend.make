@@ -176,6 +176,26 @@ CMakeFiles/Factory_trial.dir/main.cpp.o: ../main.cpp \
   /usr/include/c++/7/bits/stl_vector.h \
   /usr/include/c++/7/bits/stl_bvector.h \
   /usr/include/c++/7/bits/vector.tcc \
+  /usr/include/c++/7/memory \
+  /usr/include/c++/7/bits/stl_tempbuf.h \
+  /usr/include/c++/7/bits/stl_raw_storage_iter.h \
+  /usr/include/c++/7/ext/concurrence.h \
+  /usr/include/c++/7/bits/uses_allocator.h \
+  /usr/include/c++/7/bits/unique_ptr.h \
+  /usr/include/c++/7/utility \
+  /usr/include/c++/7/bits/stl_relops.h \
+  /usr/include/c++/7/tuple \
+  /usr/include/c++/7/array \
+  /usr/include/c++/7/bits/invoke.h \
+  /usr/include/c++/7/bits/shared_ptr.h \
+  /usr/include/c++/7/bits/shared_ptr_base.h \
+  /usr/include/c++/7/bits/allocated_ptr.h \
+  /usr/include/c++/7/bits/refwrap.h \
+  /usr/include/c++/7/ext/aligned_buffer.h \
+  /usr/include/c++/7/bits/shared_ptr_atomic.h \
+  /usr/include/c++/7/bits/atomic_base.h \
+  /usr/include/c++/7/bits/atomic_lockfree_defines.h \
+  /usr/include/c++/7/backward/auto_ptr.h \
   ../Observers/Observers.h \
   ../Animals/cat.h \
   /usr/include/c++/7/math.h \
@@ -253,19 +273,35 @@ CMakeFiles/Factory_trial.dir/main.cpp.o: ../main.cpp \
 
 ../Factories/RandomFactory.h:
 
-../Factories/BalancedFactory.h:
-
 /usr/include/x86_64-linux-gnu/bits/mathcalls.h:
 
 /usr/include/x86_64-linux-gnu/bits/mathcalls-helper-functions.h:
-
-/usr/include/x86_64-linux-gnu/bits/flt-eval-method.h:
 
 /usr/include/x86_64-linux-gnu/bits/math-vector.h:
 
 ../Animals/cat.h:
 
 ../Observers/Observers.h:
+
+/usr/include/c++/7/backward/auto_ptr.h:
+
+/usr/include/c++/7/bits/atomic_base.h:
+
+../Factories/BalancedFactory.h:
+
+/usr/include/c++/7/bits/shared_ptr_base.h:
+
+/usr/include/c++/7/tuple:
+
+/usr/include/c++/7/bits/stl_relops.h:
+
+/usr/include/c++/7/bits/unique_ptr.h:
+
+/usr/include/c++/7/ext/concurrence.h:
+
+/usr/include/x86_64-linux-gnu/bits/flt-eval-method.h:
+
+/usr/include/c++/7/bits/stl_raw_storage_iter.h:
 
 /usr/include/c++/7/bits/vector.tcc:
 
@@ -280,6 +316,8 @@ CMakeFiles/Factory_trial.dir/main.cpp.o: ../main.cpp \
 /usr/include/endian.h:
 
 /usr/include/x86_64-linux-gnu/c++/7/bits/c++locale.h:
+
+/usr/include/c++/7/memory:
 
 /usr/include/c++/7/bits/locale_classes.tcc:
 
@@ -377,6 +415,8 @@ CMakeFiles/Factory_trial.dir/main.cpp.o: ../main.cpp \
 
 /usr/include/locale.h:
 
+/usr/include/c++/7/array:
+
 /usr/include/c++/7/ostream:
 
 /usr/include/c++/7/bits/locale_classes.h:
@@ -437,6 +477,10 @@ CMakeFiles/Factory_trial.dir/main.cpp.o: ../main.cpp \
 
 /usr/include/x86_64-linux-gnu/c++/7/bits/ctype_inline.h:
 
+/usr/include/c++/7/ext/aligned_buffer.h:
+
+/usr/include/c++/7/bits/refwrap.h:
+
 /usr/include/x86_64-linux-gnu/bits/libc-header-start.h:
 
 /usr/lib/gcc/x86_64-linux-gnu/7/include/stddef.h:
@@ -483,11 +527,17 @@ CMakeFiles/Factory_trial.dir/main.cpp.o: ../main.cpp \
 
 /usr/include/c++/7/bits/localefwd.h:
 
+/usr/include/c++/7/bits/allocated_ptr.h:
+
 /usr/include/x86_64-linux-gnu/bits/byteswap-16.h:
+
+/usr/include/c++/7/bits/shared_ptr_atomic.h:
 
 /usr/include/x86_64-linux-gnu/bits/cpu-set.h:
 
 /usr/include/x86_64-linux-gnu/bits/uintn-identity.h:
+
+/usr/include/c++/7/utility:
 
 /usr/include/c++/7/bits/stl_bvector.h:
 
@@ -502,6 +552,8 @@ CMakeFiles/Factory_trial.dir/main.cpp.o: ../main.cpp \
 /usr/include/x86_64-linux-gnu/bits/types/time_t.h:
 
 /usr/include/x86_64-linux-gnu/bits/fp-fast.h:
+
+/usr/include/c++/7/bits/stl_tempbuf.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/timer_t.h:
 
@@ -541,6 +593,8 @@ CMakeFiles/Factory_trial.dir/main.cpp.o: ../main.cpp \
 
 /usr/include/c++/7/bits/cxxabi_forced.h:
 
+/usr/include/c++/7/bits/shared_ptr.h:
+
 /usr/include/c++/7/bits/basic_ios.tcc:
 
 /usr/include/x86_64-linux-gnu/bits/_G_config.h:
@@ -553,6 +607,8 @@ CMakeFiles/Factory_trial.dir/main.cpp.o: ../main.cpp \
 
 /usr/include/c++/7/ext/string_conversions.h:
 
+/usr/include/c++/7/bits/invoke.h:
+
 /usr/include/c++/7/bits/ios_base.h:
 
 /usr/include/c++/7/bits/streambuf_iterator.h:
@@ -562,6 +618,8 @@ CMakeFiles/Factory_trial.dir/main.cpp.o: ../main.cpp \
 /usr/include/asm-generic/errno.h:
 
 /usr/include/c++/7/random:
+
+/usr/include/c++/7/bits/uses_allocator.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h:
 
@@ -610,6 +668,8 @@ CMakeFiles/Factory_trial.dir/main.cpp.o: ../main.cpp \
 /usr/include/c++/7/math.h:
 
 /usr/include/x86_64-linux-gnu/bits/errno.h:
+
+/usr/include/c++/7/bits/atomic_lockfree_defines.h:
 
 /usr/include/c++/7/cwchar:
 

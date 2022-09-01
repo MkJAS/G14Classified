@@ -175,6 +175,26 @@ CMakeFiles/factory_lib.dir/Animals/cat.cpp.o: ../Animals/cat.cpp \
   /usr/include/c++/7/bits/stl_vector.h \
   /usr/include/c++/7/bits/stl_bvector.h \
   /usr/include/c++/7/bits/vector.tcc \
+  /usr/include/c++/7/memory \
+  /usr/include/c++/7/bits/stl_tempbuf.h \
+  /usr/include/c++/7/bits/stl_raw_storage_iter.h \
+  /usr/include/c++/7/ext/concurrence.h \
+  /usr/include/c++/7/bits/uses_allocator.h \
+  /usr/include/c++/7/bits/unique_ptr.h \
+  /usr/include/c++/7/utility \
+  /usr/include/c++/7/bits/stl_relops.h \
+  /usr/include/c++/7/tuple \
+  /usr/include/c++/7/array \
+  /usr/include/c++/7/bits/invoke.h \
+  /usr/include/c++/7/bits/shared_ptr.h \
+  /usr/include/c++/7/bits/shared_ptr_base.h \
+  /usr/include/c++/7/bits/allocated_ptr.h \
+  /usr/include/c++/7/bits/refwrap.h \
+  /usr/include/c++/7/ext/aligned_buffer.h \
+  /usr/include/c++/7/bits/shared_ptr_atomic.h \
+  /usr/include/c++/7/bits/atomic_base.h \
+  /usr/include/c++/7/bits/atomic_lockfree_defines.h \
+  /usr/include/c++/7/backward/auto_ptr.h \
   ../Observers/Observers.h
 
 CMakeFiles/factory_lib.dir/Animals/dog.cpp.o: ../Animals/dog.cpp \
@@ -351,6 +371,26 @@ CMakeFiles/factory_lib.dir/Animals/dog.cpp.o: ../Animals/dog.cpp \
   /usr/include/c++/7/bits/stl_vector.h \
   /usr/include/c++/7/bits/stl_bvector.h \
   /usr/include/c++/7/bits/vector.tcc \
+  /usr/include/c++/7/memory \
+  /usr/include/c++/7/bits/stl_tempbuf.h \
+  /usr/include/c++/7/bits/stl_raw_storage_iter.h \
+  /usr/include/c++/7/ext/concurrence.h \
+  /usr/include/c++/7/bits/uses_allocator.h \
+  /usr/include/c++/7/bits/unique_ptr.h \
+  /usr/include/c++/7/utility \
+  /usr/include/c++/7/bits/stl_relops.h \
+  /usr/include/c++/7/tuple \
+  /usr/include/c++/7/array \
+  /usr/include/c++/7/bits/invoke.h \
+  /usr/include/c++/7/bits/shared_ptr.h \
+  /usr/include/c++/7/bits/shared_ptr_base.h \
+  /usr/include/c++/7/bits/allocated_ptr.h \
+  /usr/include/c++/7/bits/refwrap.h \
+  /usr/include/c++/7/ext/aligned_buffer.h \
+  /usr/include/c++/7/bits/shared_ptr_atomic.h \
+  /usr/include/c++/7/bits/atomic_base.h \
+  /usr/include/c++/7/bits/atomic_lockfree_defines.h \
+  /usr/include/c++/7/backward/auto_ptr.h \
   ../Observers/Observers.h
 
 CMakeFiles/factory_lib.dir/Factories/BalancedFactory.cpp.o: ../Factories/BalancedFactory.cpp \
@@ -529,6 +569,26 @@ CMakeFiles/factory_lib.dir/Factories/BalancedFactory.cpp.o: ../Factories/Balance
   /usr/include/c++/7/bits/stl_vector.h \
   /usr/include/c++/7/bits/stl_bvector.h \
   /usr/include/c++/7/bits/vector.tcc \
+  /usr/include/c++/7/memory \
+  /usr/include/c++/7/bits/stl_tempbuf.h \
+  /usr/include/c++/7/bits/stl_raw_storage_iter.h \
+  /usr/include/c++/7/ext/concurrence.h \
+  /usr/include/c++/7/bits/uses_allocator.h \
+  /usr/include/c++/7/bits/unique_ptr.h \
+  /usr/include/c++/7/utility \
+  /usr/include/c++/7/bits/stl_relops.h \
+  /usr/include/c++/7/tuple \
+  /usr/include/c++/7/array \
+  /usr/include/c++/7/bits/invoke.h \
+  /usr/include/c++/7/bits/shared_ptr.h \
+  /usr/include/c++/7/bits/shared_ptr_base.h \
+  /usr/include/c++/7/bits/allocated_ptr.h \
+  /usr/include/c++/7/bits/refwrap.h \
+  /usr/include/c++/7/ext/aligned_buffer.h \
+  /usr/include/c++/7/bits/shared_ptr_atomic.h \
+  /usr/include/c++/7/bits/atomic_base.h \
+  /usr/include/c++/7/bits/atomic_lockfree_defines.h \
+  /usr/include/c++/7/backward/auto_ptr.h \
   ../Observers/Observers.h \
   ../Animals/cat.h \
   /usr/include/c++/7/math.h \
@@ -599,10 +659,9 @@ CMakeFiles/factory_lib.dir/Factories/ParkFactory.cpp.o: ../Factories/ParkFactory
   /usr/include/c++/7/bits/range_access.h \
   /usr/include/c++/7/bits/vector.tcc \
   ../type.h \
-  ../Animals/Animal.h \
-  /usr/include/c++/7/iostream \
-  /usr/include/c++/7/ostream \
-  /usr/include/c++/7/ios \
+  /usr/include/c++/7/memory \
+  /usr/include/c++/7/bits/stl_tempbuf.h \
+  /usr/include/c++/7/bits/stl_raw_storage_iter.h \
   /usr/include/c++/7/iosfwd \
   /usr/include/c++/7/bits/stringfwd.h \
   /usr/include/c++/7/bits/postypes.h \
@@ -620,31 +679,17 @@ CMakeFiles/factory_lib.dir/Factories/ParkFactory.cpp.o: ../Factories/ParkFactory
   /usr/include/x86_64-linux-gnu/bits/types/FILE.h \
   /usr/include/x86_64-linux-gnu/bits/types/locale_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h \
-  /usr/include/c++/7/bits/char_traits.h \
-  /usr/include/c++/7/cstdint \
-  /usr/lib/gcc/x86_64-linux-gnu/7/include/stdint.h \
-  /usr/include/stdint.h \
-  /usr/include/x86_64-linux-gnu/bits/types.h \
-  /usr/include/x86_64-linux-gnu/bits/typesizes.h \
-  /usr/include/x86_64-linux-gnu/bits/stdint-intn.h \
-  /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
-  /usr/include/c++/7/bits/localefwd.h \
-  /usr/include/x86_64-linux-gnu/c++/7/bits/c++locale.h \
-  /usr/include/c++/7/clocale \
-  /usr/include/locale.h \
-  /usr/include/x86_64-linux-gnu/bits/locale.h \
-  /usr/include/c++/7/cctype \
-  /usr/include/ctype.h \
-  /usr/include/endian.h \
-  /usr/include/x86_64-linux-gnu/bits/endian.h \
-  /usr/include/x86_64-linux-gnu/bits/byteswap.h \
-  /usr/include/x86_64-linux-gnu/bits/byteswap-16.h \
-  /usr/include/x86_64-linux-gnu/bits/uintn-identity.h \
-  /usr/include/c++/7/bits/ios_base.h \
   /usr/include/c++/7/ext/atomicity.h \
   /usr/include/x86_64-linux-gnu/c++/7/bits/gthr.h \
   /usr/include/x86_64-linux-gnu/c++/7/bits/gthr-default.h \
   /usr/include/pthread.h \
+  /usr/include/endian.h \
+  /usr/include/x86_64-linux-gnu/bits/endian.h \
+  /usr/include/x86_64-linux-gnu/bits/byteswap.h \
+  /usr/include/x86_64-linux-gnu/bits/types.h \
+  /usr/include/x86_64-linux-gnu/bits/typesizes.h \
+  /usr/include/x86_64-linux-gnu/bits/byteswap-16.h \
+  /usr/include/x86_64-linux-gnu/bits/uintn-identity.h \
   /usr/include/sched.h \
   /usr/include/x86_64-linux-gnu/bits/types/time_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h \
@@ -664,12 +709,32 @@ CMakeFiles/factory_lib.dir/Factories/ParkFactory.cpp.o: ../Factories/ParkFactory
   /usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h \
   /usr/include/x86_64-linux-gnu/bits/setjmp.h \
   /usr/include/x86_64-linux-gnu/c++/7/bits/atomic_word.h \
-  /usr/include/c++/7/bits/locale_classes.h \
-  /usr/include/c++/7/string \
-  /usr/include/c++/7/bits/ostream_insert.h \
-  /usr/include/c++/7/bits/cxxabi_forced.h \
+  /usr/include/c++/7/ext/concurrence.h \
   /usr/include/c++/7/bits/stl_function.h \
   /usr/include/c++/7/backward/binders.h \
+  /usr/include/c++/7/bits/uses_allocator.h \
+  /usr/include/c++/7/bits/unique_ptr.h \
+  /usr/include/c++/7/utility \
+  /usr/include/c++/7/bits/stl_relops.h \
+  /usr/include/c++/7/tuple \
+  /usr/include/c++/7/array \
+  /usr/include/c++/7/stdexcept \
+  /usr/include/c++/7/string \
+  /usr/include/c++/7/bits/char_traits.h \
+  /usr/include/c++/7/cstdint \
+  /usr/lib/gcc/x86_64-linux-gnu/7/include/stdint.h \
+  /usr/include/stdint.h \
+  /usr/include/x86_64-linux-gnu/bits/stdint-intn.h \
+  /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
+  /usr/include/c++/7/bits/localefwd.h \
+  /usr/include/x86_64-linux-gnu/c++/7/bits/c++locale.h \
+  /usr/include/c++/7/clocale \
+  /usr/include/locale.h \
+  /usr/include/x86_64-linux-gnu/bits/locale.h \
+  /usr/include/c++/7/cctype \
+  /usr/include/ctype.h \
+  /usr/include/c++/7/bits/ostream_insert.h \
+  /usr/include/c++/7/bits/cxxabi_forced.h \
   /usr/include/c++/7/bits/basic_string.h \
   /usr/include/c++/7/ext/string_conversions.h \
   /usr/include/c++/7/cstdlib \
@@ -700,10 +765,25 @@ CMakeFiles/factory_lib.dir/Factories/ParkFactory.cpp.o: ../Factories/ParkFactory
   /usr/include/asm-generic/errno.h \
   /usr/include/asm-generic/errno-base.h \
   /usr/include/c++/7/bits/basic_string.tcc \
+  /usr/include/c++/7/bits/invoke.h \
+  /usr/include/c++/7/bits/shared_ptr.h \
+  /usr/include/c++/7/bits/shared_ptr_base.h \
+  /usr/include/c++/7/bits/allocated_ptr.h \
+  /usr/include/c++/7/bits/refwrap.h \
+  /usr/include/c++/7/ext/aligned_buffer.h \
+  /usr/include/c++/7/bits/shared_ptr_atomic.h \
+  /usr/include/c++/7/bits/atomic_base.h \
+  /usr/include/c++/7/bits/atomic_lockfree_defines.h \
+  /usr/include/c++/7/backward/auto_ptr.h \
+  ../Animals/Animal.h \
+  /usr/include/c++/7/iostream \
+  /usr/include/c++/7/ostream \
+  /usr/include/c++/7/ios \
+  /usr/include/c++/7/bits/ios_base.h \
+  /usr/include/c++/7/bits/locale_classes.h \
   /usr/include/c++/7/bits/locale_classes.tcc \
   /usr/include/c++/7/system_error \
   /usr/include/x86_64-linux-gnu/c++/7/bits/error_constants.h \
-  /usr/include/c++/7/stdexcept \
   /usr/include/c++/7/streambuf \
   /usr/include/c++/7/bits/streambuf.tcc \
   /usr/include/c++/7/bits/basic_ios.h \
@@ -758,20 +838,12 @@ CMakeFiles/factory_lib.dir/Factories/ParkFactory.cpp.o: ../Factories/ParkFactory
   /usr/include/c++/7/numeric \
   /usr/include/c++/7/bits/stl_numeric.h \
   /usr/include/c++/7/algorithm \
-  /usr/include/c++/7/utility \
-  /usr/include/c++/7/bits/stl_relops.h \
   /usr/include/c++/7/bits/stl_algo.h \
   /usr/include/c++/7/bits/algorithmfwd.h \
   /usr/include/c++/7/bits/stl_heap.h \
-  /usr/include/c++/7/bits/stl_tempbuf.h \
   /usr/include/c++/7/map \
   /usr/include/c++/7/bits/stl_tree.h \
-  /usr/include/c++/7/ext/aligned_buffer.h \
   /usr/include/c++/7/bits/stl_map.h \
-  /usr/include/c++/7/tuple \
-  /usr/include/c++/7/array \
-  /usr/include/c++/7/bits/uses_allocator.h \
-  /usr/include/c++/7/bits/invoke.h \
   /usr/include/c++/7/bits/stl_multimap.h
 
 CMakeFiles/factory_lib.dir/Factories/RandomFactory.cpp.o: ../Factories/RandomFactory.cpp \
@@ -950,6 +1022,26 @@ CMakeFiles/factory_lib.dir/Factories/RandomFactory.cpp.o: ../Factories/RandomFac
   /usr/include/c++/7/bits/stl_vector.h \
   /usr/include/c++/7/bits/stl_bvector.h \
   /usr/include/c++/7/bits/vector.tcc \
+  /usr/include/c++/7/memory \
+  /usr/include/c++/7/bits/stl_tempbuf.h \
+  /usr/include/c++/7/bits/stl_raw_storage_iter.h \
+  /usr/include/c++/7/ext/concurrence.h \
+  /usr/include/c++/7/bits/uses_allocator.h \
+  /usr/include/c++/7/bits/unique_ptr.h \
+  /usr/include/c++/7/utility \
+  /usr/include/c++/7/bits/stl_relops.h \
+  /usr/include/c++/7/tuple \
+  /usr/include/c++/7/array \
+  /usr/include/c++/7/bits/invoke.h \
+  /usr/include/c++/7/bits/shared_ptr.h \
+  /usr/include/c++/7/bits/shared_ptr_base.h \
+  /usr/include/c++/7/bits/allocated_ptr.h \
+  /usr/include/c++/7/bits/refwrap.h \
+  /usr/include/c++/7/ext/aligned_buffer.h \
+  /usr/include/c++/7/bits/shared_ptr_atomic.h \
+  /usr/include/c++/7/bits/atomic_base.h \
+  /usr/include/c++/7/bits/atomic_lockfree_defines.h \
+  /usr/include/c++/7/backward/auto_ptr.h \
   ../Observers/Observers.h \
   ../Animals/cat.h \
   /usr/include/c++/7/math.h \
@@ -1163,6 +1255,26 @@ CMakeFiles/factory_lib.dir/Factories/TreeFactory.cpp.o: ../Factories/TreeFactory
   /usr/include/c++/7/bits/stl_vector.h \
   /usr/include/c++/7/bits/stl_bvector.h \
   /usr/include/c++/7/bits/vector.tcc \
+  /usr/include/c++/7/memory \
+  /usr/include/c++/7/bits/stl_tempbuf.h \
+  /usr/include/c++/7/bits/stl_raw_storage_iter.h \
+  /usr/include/c++/7/ext/concurrence.h \
+  /usr/include/c++/7/bits/uses_allocator.h \
+  /usr/include/c++/7/bits/unique_ptr.h \
+  /usr/include/c++/7/utility \
+  /usr/include/c++/7/bits/stl_relops.h \
+  /usr/include/c++/7/tuple \
+  /usr/include/c++/7/array \
+  /usr/include/c++/7/bits/invoke.h \
+  /usr/include/c++/7/bits/shared_ptr.h \
+  /usr/include/c++/7/bits/shared_ptr_base.h \
+  /usr/include/c++/7/bits/allocated_ptr.h \
+  /usr/include/c++/7/bits/refwrap.h \
+  /usr/include/c++/7/ext/aligned_buffer.h \
+  /usr/include/c++/7/bits/shared_ptr_atomic.h \
+  /usr/include/c++/7/bits/atomic_base.h \
+  /usr/include/c++/7/bits/atomic_lockfree_defines.h \
+  /usr/include/c++/7/backward/auto_ptr.h \
   ../Trees/Cedar.h
 
 CMakeFiles/factory_lib.dir/Observers/ParkRanger.cpp.o: ../Observers/ParkRanger.cpp \
@@ -1340,6 +1452,26 @@ CMakeFiles/factory_lib.dir/Observers/ParkRanger.cpp.o: ../Observers/ParkRanger.c
   /usr/include/c++/7/bits/stl_vector.h \
   /usr/include/c++/7/bits/stl_bvector.h \
   /usr/include/c++/7/bits/vector.tcc \
+  /usr/include/c++/7/memory \
+  /usr/include/c++/7/bits/stl_tempbuf.h \
+  /usr/include/c++/7/bits/stl_raw_storage_iter.h \
+  /usr/include/c++/7/ext/concurrence.h \
+  /usr/include/c++/7/bits/uses_allocator.h \
+  /usr/include/c++/7/bits/unique_ptr.h \
+  /usr/include/c++/7/utility \
+  /usr/include/c++/7/bits/stl_relops.h \
+  /usr/include/c++/7/tuple \
+  /usr/include/c++/7/array \
+  /usr/include/c++/7/bits/invoke.h \
+  /usr/include/c++/7/bits/shared_ptr.h \
+  /usr/include/c++/7/bits/shared_ptr_base.h \
+  /usr/include/c++/7/bits/allocated_ptr.h \
+  /usr/include/c++/7/bits/refwrap.h \
+  /usr/include/c++/7/ext/aligned_buffer.h \
+  /usr/include/c++/7/bits/shared_ptr_atomic.h \
+  /usr/include/c++/7/bits/atomic_base.h \
+  /usr/include/c++/7/bits/atomic_lockfree_defines.h \
+  /usr/include/c++/7/backward/auto_ptr.h \
   ../Observers/Observers.h \
   ../Park.h \
   ../type.h \
@@ -1411,10 +1543,9 @@ CMakeFiles/factory_lib.dir/Park.cpp.o: ../Park.cpp \
   /usr/include/c++/7/bits/range_access.h \
   /usr/include/c++/7/bits/vector.tcc \
   ../type.h \
-  ../Animals/Animal.h \
-  /usr/include/c++/7/iostream \
-  /usr/include/c++/7/ostream \
-  /usr/include/c++/7/ios \
+  /usr/include/c++/7/memory \
+  /usr/include/c++/7/bits/stl_tempbuf.h \
+  /usr/include/c++/7/bits/stl_raw_storage_iter.h \
   /usr/include/c++/7/iosfwd \
   /usr/include/c++/7/bits/stringfwd.h \
   /usr/include/c++/7/bits/postypes.h \
@@ -1432,31 +1563,17 @@ CMakeFiles/factory_lib.dir/Park.cpp.o: ../Park.cpp \
   /usr/include/x86_64-linux-gnu/bits/types/FILE.h \
   /usr/include/x86_64-linux-gnu/bits/types/locale_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h \
-  /usr/include/c++/7/bits/char_traits.h \
-  /usr/include/c++/7/cstdint \
-  /usr/lib/gcc/x86_64-linux-gnu/7/include/stdint.h \
-  /usr/include/stdint.h \
-  /usr/include/x86_64-linux-gnu/bits/types.h \
-  /usr/include/x86_64-linux-gnu/bits/typesizes.h \
-  /usr/include/x86_64-linux-gnu/bits/stdint-intn.h \
-  /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
-  /usr/include/c++/7/bits/localefwd.h \
-  /usr/include/x86_64-linux-gnu/c++/7/bits/c++locale.h \
-  /usr/include/c++/7/clocale \
-  /usr/include/locale.h \
-  /usr/include/x86_64-linux-gnu/bits/locale.h \
-  /usr/include/c++/7/cctype \
-  /usr/include/ctype.h \
-  /usr/include/endian.h \
-  /usr/include/x86_64-linux-gnu/bits/endian.h \
-  /usr/include/x86_64-linux-gnu/bits/byteswap.h \
-  /usr/include/x86_64-linux-gnu/bits/byteswap-16.h \
-  /usr/include/x86_64-linux-gnu/bits/uintn-identity.h \
-  /usr/include/c++/7/bits/ios_base.h \
   /usr/include/c++/7/ext/atomicity.h \
   /usr/include/x86_64-linux-gnu/c++/7/bits/gthr.h \
   /usr/include/x86_64-linux-gnu/c++/7/bits/gthr-default.h \
   /usr/include/pthread.h \
+  /usr/include/endian.h \
+  /usr/include/x86_64-linux-gnu/bits/endian.h \
+  /usr/include/x86_64-linux-gnu/bits/byteswap.h \
+  /usr/include/x86_64-linux-gnu/bits/types.h \
+  /usr/include/x86_64-linux-gnu/bits/typesizes.h \
+  /usr/include/x86_64-linux-gnu/bits/byteswap-16.h \
+  /usr/include/x86_64-linux-gnu/bits/uintn-identity.h \
   /usr/include/sched.h \
   /usr/include/x86_64-linux-gnu/bits/types/time_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h \
@@ -1476,12 +1593,32 @@ CMakeFiles/factory_lib.dir/Park.cpp.o: ../Park.cpp \
   /usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h \
   /usr/include/x86_64-linux-gnu/bits/setjmp.h \
   /usr/include/x86_64-linux-gnu/c++/7/bits/atomic_word.h \
-  /usr/include/c++/7/bits/locale_classes.h \
-  /usr/include/c++/7/string \
-  /usr/include/c++/7/bits/ostream_insert.h \
-  /usr/include/c++/7/bits/cxxabi_forced.h \
+  /usr/include/c++/7/ext/concurrence.h \
   /usr/include/c++/7/bits/stl_function.h \
   /usr/include/c++/7/backward/binders.h \
+  /usr/include/c++/7/bits/uses_allocator.h \
+  /usr/include/c++/7/bits/unique_ptr.h \
+  /usr/include/c++/7/utility \
+  /usr/include/c++/7/bits/stl_relops.h \
+  /usr/include/c++/7/tuple \
+  /usr/include/c++/7/array \
+  /usr/include/c++/7/stdexcept \
+  /usr/include/c++/7/string \
+  /usr/include/c++/7/bits/char_traits.h \
+  /usr/include/c++/7/cstdint \
+  /usr/lib/gcc/x86_64-linux-gnu/7/include/stdint.h \
+  /usr/include/stdint.h \
+  /usr/include/x86_64-linux-gnu/bits/stdint-intn.h \
+  /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
+  /usr/include/c++/7/bits/localefwd.h \
+  /usr/include/x86_64-linux-gnu/c++/7/bits/c++locale.h \
+  /usr/include/c++/7/clocale \
+  /usr/include/locale.h \
+  /usr/include/x86_64-linux-gnu/bits/locale.h \
+  /usr/include/c++/7/cctype \
+  /usr/include/ctype.h \
+  /usr/include/c++/7/bits/ostream_insert.h \
+  /usr/include/c++/7/bits/cxxabi_forced.h \
   /usr/include/c++/7/bits/basic_string.h \
   /usr/include/c++/7/ext/string_conversions.h \
   /usr/include/c++/7/cstdlib \
@@ -1512,10 +1649,25 @@ CMakeFiles/factory_lib.dir/Park.cpp.o: ../Park.cpp \
   /usr/include/asm-generic/errno.h \
   /usr/include/asm-generic/errno-base.h \
   /usr/include/c++/7/bits/basic_string.tcc \
+  /usr/include/c++/7/bits/invoke.h \
+  /usr/include/c++/7/bits/shared_ptr.h \
+  /usr/include/c++/7/bits/shared_ptr_base.h \
+  /usr/include/c++/7/bits/allocated_ptr.h \
+  /usr/include/c++/7/bits/refwrap.h \
+  /usr/include/c++/7/ext/aligned_buffer.h \
+  /usr/include/c++/7/bits/shared_ptr_atomic.h \
+  /usr/include/c++/7/bits/atomic_base.h \
+  /usr/include/c++/7/bits/atomic_lockfree_defines.h \
+  /usr/include/c++/7/backward/auto_ptr.h \
+  ../Animals/Animal.h \
+  /usr/include/c++/7/iostream \
+  /usr/include/c++/7/ostream \
+  /usr/include/c++/7/ios \
+  /usr/include/c++/7/bits/ios_base.h \
+  /usr/include/c++/7/bits/locale_classes.h \
   /usr/include/c++/7/bits/locale_classes.tcc \
   /usr/include/c++/7/system_error \
   /usr/include/x86_64-linux-gnu/c++/7/bits/error_constants.h \
-  /usr/include/c++/7/stdexcept \
   /usr/include/c++/7/streambuf \
   /usr/include/c++/7/bits/streambuf.tcc \
   /usr/include/c++/7/bits/basic_ios.h \
@@ -1731,7 +1883,27 @@ CMakeFiles/factory_lib.dir/Trees/Birch.cpp.o: ../Trees/Birch.cpp \
   /usr/include/c++/7/bits/stl_uninitialized.h \
   /usr/include/c++/7/bits/stl_vector.h \
   /usr/include/c++/7/bits/stl_bvector.h \
-  /usr/include/c++/7/bits/vector.tcc
+  /usr/include/c++/7/bits/vector.tcc \
+  /usr/include/c++/7/memory \
+  /usr/include/c++/7/bits/stl_tempbuf.h \
+  /usr/include/c++/7/bits/stl_raw_storage_iter.h \
+  /usr/include/c++/7/ext/concurrence.h \
+  /usr/include/c++/7/bits/uses_allocator.h \
+  /usr/include/c++/7/bits/unique_ptr.h \
+  /usr/include/c++/7/utility \
+  /usr/include/c++/7/bits/stl_relops.h \
+  /usr/include/c++/7/tuple \
+  /usr/include/c++/7/array \
+  /usr/include/c++/7/bits/invoke.h \
+  /usr/include/c++/7/bits/shared_ptr.h \
+  /usr/include/c++/7/bits/shared_ptr_base.h \
+  /usr/include/c++/7/bits/allocated_ptr.h \
+  /usr/include/c++/7/bits/refwrap.h \
+  /usr/include/c++/7/ext/aligned_buffer.h \
+  /usr/include/c++/7/bits/shared_ptr_atomic.h \
+  /usr/include/c++/7/bits/atomic_base.h \
+  /usr/include/c++/7/bits/atomic_lockfree_defines.h \
+  /usr/include/c++/7/backward/auto_ptr.h
 
 CMakeFiles/factory_lib.dir/Trees/Cedar.cpp.o: ../Trees/Cedar.cpp \
   /usr/include/stdc-predef.h \
@@ -1917,7 +2089,27 @@ CMakeFiles/factory_lib.dir/Trees/Cedar.cpp.o: ../Trees/Cedar.cpp \
   /usr/include/c++/7/bits/stl_uninitialized.h \
   /usr/include/c++/7/bits/stl_vector.h \
   /usr/include/c++/7/bits/stl_bvector.h \
-  /usr/include/c++/7/bits/vector.tcc
+  /usr/include/c++/7/bits/vector.tcc \
+  /usr/include/c++/7/memory \
+  /usr/include/c++/7/bits/stl_tempbuf.h \
+  /usr/include/c++/7/bits/stl_raw_storage_iter.h \
+  /usr/include/c++/7/ext/concurrence.h \
+  /usr/include/c++/7/bits/uses_allocator.h \
+  /usr/include/c++/7/bits/unique_ptr.h \
+  /usr/include/c++/7/utility \
+  /usr/include/c++/7/bits/stl_relops.h \
+  /usr/include/c++/7/tuple \
+  /usr/include/c++/7/array \
+  /usr/include/c++/7/bits/invoke.h \
+  /usr/include/c++/7/bits/shared_ptr.h \
+  /usr/include/c++/7/bits/shared_ptr_base.h \
+  /usr/include/c++/7/bits/allocated_ptr.h \
+  /usr/include/c++/7/bits/refwrap.h \
+  /usr/include/c++/7/ext/aligned_buffer.h \
+  /usr/include/c++/7/bits/shared_ptr_atomic.h \
+  /usr/include/c++/7/bits/atomic_base.h \
+  /usr/include/c++/7/bits/atomic_lockfree_defines.h \
+  /usr/include/c++/7/backward/auto_ptr.h
 
 CMakeFiles/factory_lib.dir/Trees/Tree.cpp.o: ../Trees/Tree.cpp \
   /usr/include/stdc-predef.h \
@@ -2102,7 +2294,27 @@ CMakeFiles/factory_lib.dir/Trees/Tree.cpp.o: ../Trees/Tree.cpp \
   /usr/include/c++/7/bits/stl_uninitialized.h \
   /usr/include/c++/7/bits/stl_vector.h \
   /usr/include/c++/7/bits/stl_bvector.h \
-  /usr/include/c++/7/bits/vector.tcc
+  /usr/include/c++/7/bits/vector.tcc \
+  /usr/include/c++/7/memory \
+  /usr/include/c++/7/bits/stl_tempbuf.h \
+  /usr/include/c++/7/bits/stl_raw_storage_iter.h \
+  /usr/include/c++/7/ext/concurrence.h \
+  /usr/include/c++/7/bits/uses_allocator.h \
+  /usr/include/c++/7/bits/unique_ptr.h \
+  /usr/include/c++/7/utility \
+  /usr/include/c++/7/bits/stl_relops.h \
+  /usr/include/c++/7/tuple \
+  /usr/include/c++/7/array \
+  /usr/include/c++/7/bits/invoke.h \
+  /usr/include/c++/7/bits/shared_ptr.h \
+  /usr/include/c++/7/bits/shared_ptr_base.h \
+  /usr/include/c++/7/bits/allocated_ptr.h \
+  /usr/include/c++/7/bits/refwrap.h \
+  /usr/include/c++/7/ext/aligned_buffer.h \
+  /usr/include/c++/7/bits/shared_ptr_atomic.h \
+  /usr/include/c++/7/bits/atomic_base.h \
+  /usr/include/c++/7/bits/atomic_lockfree_defines.h \
+  /usr/include/c++/7/backward/auto_ptr.h
 
 
 ../Trees/Tree.cpp:
@@ -2119,15 +2331,9 @@ CMakeFiles/factory_lib.dir/Trees/Tree.cpp.o: ../Trees/Tree.cpp \
 
 /usr/include/c++/7/bits/stl_multimap.h:
 
-/usr/include/c++/7/tuple:
-
 /usr/include/c++/7/bits/algorithmfwd.h:
 
 /usr/include/c++/7/bits/stl_algo.h:
-
-../Trees/Birch.cpp:
-
-/usr/include/c++/7/bits/stl_relops.h:
 
 /usr/include/c++/7/algorithm:
 
@@ -2163,13 +2369,9 @@ CMakeFiles/factory_lib.dir/Trees/Tree.cpp.o: ../Trees/Tree.cpp \
 
 /usr/include/x86_64-linux-gnu/bits/mathcalls-helper-functions.h:
 
-/usr/include/x86_64-linux-gnu/bits/flt-eval-method.h:
-
 /usr/include/x86_64-linux-gnu/bits/math-vector.h:
 
 ../Factories/factory.h:
-
-../Factories/BalancedFactory.h:
 
 ../Factories/BalancedFactory.cpp:
 
@@ -2178,6 +2380,28 @@ CMakeFiles/factory_lib.dir/Trees/Tree.cpp.o: ../Trees/Tree.cpp \
 ../Animals/dog.cpp:
 
 ../Observers/Observers.h:
+
+/usr/include/c++/7/backward/auto_ptr.h:
+
+/usr/include/c++/7/bits/atomic_base.h:
+
+../Factories/BalancedFactory.h:
+
+/usr/include/c++/7/bits/shared_ptr_base.h:
+
+/usr/include/c++/7/tuple:
+
+../Trees/Birch.cpp:
+
+/usr/include/c++/7/bits/stl_relops.h:
+
+/usr/include/c++/7/bits/unique_ptr.h:
+
+/usr/include/c++/7/ext/concurrence.h:
+
+/usr/include/x86_64-linux-gnu/bits/flt-eval-method.h:
+
+/usr/include/c++/7/bits/stl_raw_storage_iter.h:
 
 /usr/include/c++/7/bits/vector.tcc:
 
@@ -2192,6 +2416,8 @@ CMakeFiles/factory_lib.dir/Trees/Tree.cpp.o: ../Trees/Tree.cpp \
 /usr/include/endian.h:
 
 /usr/include/x86_64-linux-gnu/c++/7/bits/c++locale.h:
+
+/usr/include/c++/7/memory:
 
 /usr/include/c++/7/bits/locale_classes.tcc:
 
@@ -2339,6 +2565,8 @@ CMakeFiles/factory_lib.dir/Trees/Tree.cpp.o: ../Trees/Tree.cpp \
 
 /usr/include/c++/7/ext/aligned_buffer.h:
 
+/usr/include/c++/7/bits/refwrap.h:
+
 /usr/include/x86_64-linux-gnu/bits/libc-header-start.h:
 
 /usr/lib/gcc/x86_64-linux-gnu/7/include/stddef.h:
@@ -2393,7 +2621,11 @@ CMakeFiles/factory_lib.dir/Trees/Tree.cpp.o: ../Trees/Tree.cpp \
 
 /usr/include/x86_64-linux-gnu/bits/libio.h:
 
+/usr/include/c++/7/bits/allocated_ptr.h:
+
 /usr/include/x86_64-linux-gnu/bits/byteswap-16.h:
+
+/usr/include/c++/7/bits/shared_ptr_atomic.h:
 
 /usr/include/x86_64-linux-gnu/bits/cpu-set.h:
 
@@ -2421,9 +2653,9 @@ CMakeFiles/factory_lib.dir/Trees/Tree.cpp.o: ../Trees/Tree.cpp \
 
 /usr/include/x86_64-linux-gnu/bits/types/time_t.h:
 
-/usr/include/c++/7/bits/stl_tempbuf.h:
-
 /usr/include/x86_64-linux-gnu/bits/fp-fast.h:
+
+/usr/include/c++/7/bits/stl_tempbuf.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/timer_t.h:
 
@@ -2463,6 +2695,8 @@ CMakeFiles/factory_lib.dir/Trees/Tree.cpp.o: ../Trees/Tree.cpp \
 
 /usr/include/c++/7/bits/cxxabi_forced.h:
 
+/usr/include/c++/7/bits/shared_ptr.h:
+
 /usr/include/c++/7/bits/basic_ios.tcc:
 
 /usr/include/x86_64-linux-gnu/bits/_G_config.h:
@@ -2487,9 +2721,9 @@ CMakeFiles/factory_lib.dir/Trees/Tree.cpp.o: ../Trees/Tree.cpp \
 
 /usr/include/asm-generic/errno.h:
 
-/usr/include/c++/7/bits/uses_allocator.h:
-
 /usr/include/c++/7/random:
+
+/usr/include/c++/7/bits/uses_allocator.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h:
 
@@ -2542,6 +2776,8 @@ CMakeFiles/factory_lib.dir/Trees/Tree.cpp.o: ../Trees/Tree.cpp \
 /usr/include/c++/7/math.h:
 
 /usr/include/x86_64-linux-gnu/bits/errno.h:
+
+/usr/include/c++/7/bits/atomic_lockfree_defines.h:
 
 /usr/include/c++/7/cwchar:
 

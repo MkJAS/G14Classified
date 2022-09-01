@@ -6,20 +6,20 @@
 #include "factory.h"
 #include "BalancedFactory.h"
 #include "RandomFactory.h"
+#include <memory>
 
 class ParkFactory
 {
 public:
     static ParkFactory* Instance();
-    Park buildPark();
+    std::shared_ptr<Park> buildPark();
 
 protected:
-    ParkFactory();
+    ParkFactory();  
 
 private:
-    std::vector<Animal*> createAnimal(geometry_msgs::Point position){};
-    std::vector<std::vector<Tree*>> spawnTrees(std::vector<std::string> treeSettings, std::vector<Quadrant> ParkQuadrants);
-    std::vector<std::vector<Animal*>> spawnAnimals(std::vector<std::string> animalSettings, std::vector<Quadrant> ParkQuadrants);
+    std::vector<std::vector<std::shared_ptr<Tree>>> spawnTrees(std::vector<std::string> treeSettings, std::vector<Quadrant> ParkQuadrants);
+    std::vector<std::vector<std::shared_ptr<Animal>>> spawnAnimals(std::vector<std::string> animalSettings, std::vector<Quadrant> ParkQuadrants);
 
     static ParkFactory* _instance;
 

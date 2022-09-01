@@ -11,18 +11,19 @@ TreeFactory* TreeFactory::Instance()
     return _instance;
 }
 
-std::vector<Tree*> TreeFactory::createTree(treeType t,double amount, double startingAge)
+std::vector<std::shared_ptr<Tree>> TreeFactory::createTree(treeType t,double amount, double startingAge)
 {
-    std::vector<Tree*> forest;
+    std::vector<std::shared_ptr<Tree>> forest;
     for(int i=0;i<amount;i++)
     {
         switch (t)
         {
             case BIRCH:
-                forest.push_back(new Birch(startingAge));
+                // std::shared_ptr<Birch> (new Birch(startingAge));
+                forest.push_back(std::shared_ptr<Birch> (new Birch(startingAge)));
             break;
             case CEDAR:
-                forest.push_back(new Cedar(startingAge));
+                forest.push_back(std::shared_ptr<Cedar> (new Cedar(startingAge)));
             break;
         }
     }

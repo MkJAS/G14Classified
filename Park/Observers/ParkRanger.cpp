@@ -1,12 +1,13 @@
 #include "ParkRanger.h"
 
-ParkRanger::ParkRanger(Park* park)
+ParkRanger::ParkRanger(std::shared_ptr<Park> park)
 {
     _park = park;
     for(int i=0;i<4;i++)
     {
         for(auto e:_park->_quadrants[i].wildlife)
         {
+            // std::shared_ptr<ParkRanger> rangerPointer(this);
             e->addWatcher(this);
         }
     }

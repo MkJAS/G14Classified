@@ -7,6 +7,7 @@
 #include <iostream>
 #include <stdio.h>
 #include <vector>
+#include <memory>
 
 
 enum treeType{BIRCH, CEDAR};
@@ -15,7 +16,7 @@ class TreeFactory
 {
 public:
     static TreeFactory* Instance();
-    std::vector<Tree*> createTree(treeType t, double amount = 1, double startingAge = 50);
+    std::vector<std::shared_ptr<Tree>> createTree(treeType t, double amount = 1, double startingAge = 50);
 protected:
     TreeFactory(){};
     // TreeFactory* getTreeFactory();

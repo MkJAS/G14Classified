@@ -12,17 +12,17 @@ BalancedFactory* BalancedFactory::Instance()
 }
 
 
-std::vector<Animal*> BalancedFactory::createAnimal(geometry_msgs::Point position)
+std::vector<std::shared_ptr<Animal>> BalancedFactory::createAnimal(geometry_msgs::Point position)
 {
     double MAX_animals = 6;
     double r = 10;
 
     geometry_msgs::Point spawn;
-    std::vector<Animal*> animals;
+    std::vector<std::shared_ptr<Animal>> animals;
     for (int i = 0; i < MAX_animals/2; i++)
     {
-        animals.push_back(new Dog);
-        animals.push_back(new Cat);
+        animals.push_back(std::shared_ptr<Dog> (new Dog));
+        animals.push_back(std::shared_ptr<Cat> (new Cat));
     }
     for (double i=0; i<animals.size();i++)
     {

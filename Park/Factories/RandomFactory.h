@@ -11,7 +11,7 @@ class RandomFactory:public AnimalFactory
 {
 public:
     static RandomFactory* Instance();
-    std::vector<Animal*> createAnimal(geometry_msgs::Point position);
+    std::vector<std::shared_ptr<Animal>> createAnimal(geometry_msgs::Point position);
 protected:
     RandomFactory(){};
 private:
