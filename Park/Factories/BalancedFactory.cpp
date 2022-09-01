@@ -33,8 +33,8 @@ std::vector<Animal*> BalancedFactory::createAnimal(geometry_msgs::Point position
         //     spawn.x = -1*r*cos((2*M_PI/MAX_animals)*i);
         //     spawn.y = r*sin((2*M_PI/MAX_animals)*i);
         // }
-        spawn.x = r*cos(angle);
-        spawn.y = r*sin(angle);
+        spawn.x = r*cos(angle) + position.x;
+        spawn.y = r*sin(angle) + position.y;
         if (angle == M_PI)
         {
             spawn.y = 0;

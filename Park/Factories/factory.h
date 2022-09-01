@@ -19,6 +19,7 @@ public:
 
     AnimalFactory(){};
     virtual std::vector<Animal*> createAnimal(geometry_msgs::Point position) = 0;
+    
 
 protected:
     

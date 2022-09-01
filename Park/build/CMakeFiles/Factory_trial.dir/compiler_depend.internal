@@ -219,4 +219,7 @@ CMakeFiles/Factory_trial.dir/main.cpp.o
  /home/joseph/git/Patterns/Park/Factories/TreeFactory.h
  /home/joseph/git/Patterns/Park/Factories/BalancedFactory.h
  /home/joseph/git/Patterns/Park/Factories/RandomFactory.h
+ /home/joseph/git/Patterns/Park/Observers/ParkRanger.h
+ /home/joseph/git/Patterns/Park/Observers/Observers.h
+ /home/joseph/git/Patterns/Park/Park.h
 

@@ -26,7 +26,7 @@
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 17,
+				"line" : 18,
 				"parent" : 0
 			},
 			{
@@ -63,6 +63,10 @@
 				{
 					"backtrace" : 2,
 					"path" : "/home/joseph/git/Patterns/Park/Factories"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/joseph/git/Patterns/Park/Observers"
 				},
 				{
 					"backtrace" : 2,

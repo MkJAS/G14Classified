@@ -217,8 +217,13 @@ CMakeFiles/Factory_trial.dir/main.cpp.o: ../main.cpp \
   ../Trees/Tree.h \
   ../Factories/TreeFactory.h \
   ../Factories/BalancedFactory.h \
-  ../Factories/RandomFactory.h
+  ../Factories/RandomFactory.h \
+  ../Observers/ParkRanger.h \
+  ../Observers/Observers.h \
+  ../Park.h
 
+
+../Observers/ParkRanger.h:
 
 ../Factories/ParkFactory.h:
 

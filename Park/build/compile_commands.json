@@ -1,62 +1,62 @@
 [
 {
   "directory": "/home/joseph/git/Patterns/Park/build",
-  "command": "/usr/bin/g++  -I/home/joseph/git/Patterns/Park/Animals -I/home/joseph/git/Patterns/Park/Trees -I/home/joseph/git/Patterns/Park/Waters -I/home/joseph/git/Patterns/Park/Factories -I/home/joseph/git/Patterns/Park/..  -std=c++11 -g -o CMakeFiles/factory_lib.dir/Park.cpp.o -c /home/joseph/git/Patterns/Park/Park.cpp",
+  "command": "/usr/bin/g++  -I/home/joseph/git/Patterns/Park/Animals -I/home/joseph/git/Patterns/Park/Trees -I/home/joseph/git/Patterns/Park/Waters -I/home/joseph/git/Patterns/Park/Factories -I/home/joseph/git/Patterns/Park/Observers -I/home/joseph/git/Patterns/Park/..  -std=c++11 -g -o CMakeFiles/factory_lib.dir/Park.cpp.o -c /home/joseph/git/Patterns/Park/Park.cpp",
   "file": "/home/joseph/git/Patterns/Park/Park.cpp"
 },
 {
   "directory": "/home/joseph/git/Patterns/Park/build",
-  "command": "/usr/bin/g++  -I/home/joseph/git/Patterns/Park/Animals -I/home/joseph/git/Patterns/Park/Trees -I/home/joseph/git/Patterns/Park/Waters -I/home/joseph/git/Patterns/Park/Factories -I/home/joseph/git/Patterns/Park/..  -std=c++11 -g -o CMakeFiles/factory_lib.dir/Observers/ParkRanger.cpp.o -c /home/joseph/git/Patterns/Park/Observers/ParkRanger.cpp",
+  "command": "/usr/bin/g++  -I/home/joseph/git/Patterns/Park/Animals -I/home/joseph/git/Patterns/Park/Trees -I/home/joseph/git/Patterns/Park/Waters -I/home/joseph/git/Patterns/Park/Factories -I/home/joseph/git/Patterns/Park/Observers -I/home/joseph/git/Patterns/Park/..  -std=c++11 -g -o CMakeFiles/factory_lib.dir/Observers/ParkRanger.cpp.o -c /home/joseph/git/Patterns/Park/Observers/ParkRanger.cpp",
   "file": "/home/joseph/git/Patterns/Park/Observers/ParkRanger.cpp"
 },
 {
   "directory": "/home/joseph/git/Patterns/Park/build",
-  "command": "/usr/bin/g++  -I/home/joseph/git/Patterns/Park/Animals -I/home/joseph/git/Patterns/Park/Trees -I/home/joseph/git/Patterns/Park/Waters -I/home/joseph/git/Patterns/Park/Factories -I/home/joseph/git/Patterns/Park/..  -std=c++11 -g -o CMakeFiles/factory_lib.dir/Animals/dog.cpp.o -c /home/joseph/git/Patterns/Park/Animals/dog.cpp",
+  "command": "/usr/bin/g++  -I/home/joseph/git/Patterns/Park/Animals -I/home/joseph/git/Patterns/Park/Trees -I/home/joseph/git/Patterns/Park/Waters -I/home/joseph/git/Patterns/Park/Factories -I/home/joseph/git/Patterns/Park/Observers -I/home/joseph/git/Patterns/Park/..  -std=c++11 -g -o CMakeFiles/factory_lib.dir/Animals/dog.cpp.o -c /home/joseph/git/Patterns/Park/Animals/dog.cpp",
   "file": "/home/joseph/git/Patterns/Park/Animals/dog.cpp"
 },
 {
   "directory": "/home/joseph/git/Patterns/Park/build",
-  "command": "/usr/bin/g++  -I/home/joseph/git/Patterns/Park/Animals -I/home/joseph/git/Patterns/Park/Trees -I/home/joseph/git/Patterns/Park/Waters -I/home/joseph/git/Patterns/Park/Factories -I/home/joseph/git/Patterns/Park/..  -std=c++11 -g -o CMakeFiles/factory_lib.dir/Animals/cat.cpp.o -c /home/joseph/git/Patterns/Park/Animals/cat.cpp",
+  "command": "/usr/bin/g++  -I/home/joseph/git/Patterns/Park/Animals -I/home/joseph/git/Patterns/Park/Trees -I/home/joseph/git/Patterns/Park/Waters -I/home/joseph/git/Patterns/Park/Factories -I/home/joseph/git/Patterns/Park/Observers -I/home/joseph/git/Patterns/Park/..  -std=c++11 -g -o CMakeFiles/factory_lib.dir/Animals/cat.cpp.o -c /home/joseph/git/Patterns/Park/Animals/cat.cpp",
   "file": "/home/joseph/git/Patterns/Park/Animals/cat.cpp"
 },
 {
   "directory": "/home/joseph/git/Patterns/Park/build",
-  "command": "/usr/bin/g++  -I/home/joseph/git/Patterns/Park/Animals -I/home/joseph/git/Patterns/Park/Trees -I/home/joseph/git/Patterns/Park/Waters -I/home/joseph/git/Patterns/Park/Factories -I/home/joseph/git/Patterns/Park/..  -std=c++11 -g -o CMakeFiles/factory_lib.dir/Factories/ParkFactory.cpp.o -c /home/joseph/git/Patterns/Park/Factories/ParkFactory.cpp",
+  "command": "/usr/bin/g++  -I/home/joseph/git/Patterns/Park/Animals -I/home/joseph/git/Patterns/Park/Trees -I/home/joseph/git/Patterns/Park/Waters -I/home/joseph/git/Patterns/Park/Factories -I/home/joseph/git/Patterns/Park/Observers -I/home/joseph/git/Patterns/Park/..  -std=c++11 -g -o CMakeFiles/factory_lib.dir/Factories/ParkFactory.cpp.o -c /home/joseph/git/Patterns/Park/Factories/ParkFactory.cpp",
   "file": "/home/joseph/git/Patterns/Park/Factories/ParkFactory.cpp"
 },
 {
   "directory": "/home/joseph/git/Patterns/Park/build",
-  "command": "/usr/bin/g++  -I/home/joseph/git/Patterns/Park/Animals -I/home/joseph/git/Patterns/Park/Trees -I/home/joseph/git/Patterns/Park/Waters -I/home/joseph/git/Patterns/Park/Factories -I/home/joseph/git/Patterns/Park/..  -std=c++11 -g -o CMakeFiles/factory_lib.dir/Factories/BalancedFactory.cpp.o -c /home/joseph/git/Patterns/Park/Factories/BalancedFactory.cpp",
+  "command": "/usr/bin/g++  -I/home/joseph/git/Patterns/Park/Animals -I/home/joseph/git/Patterns/Park/Trees -I/home/joseph/git/Patterns/Park/Waters -I/home/joseph/git/Patterns/Park/Factories -I/home/joseph/git/Patterns/Park/Observers -I/home/joseph/git/Patterns/Park/..  -std=c++11 -g -o CMakeFiles/factory_lib.dir/Factories/BalancedFactory.cpp.o -c /home/joseph/git/Patterns/Park/Factories/BalancedFactory.cpp",
   "file": "/home/joseph/git/Patterns/Park/Factories/BalancedFactory.cpp"
 },
 {
   "directory": "/home/joseph/git/Patterns/Park/build",
-  "command": "/usr/bin/g++  -I/home/joseph/git/Patterns/Park/Animals -I/home/joseph/git/Patterns/Park/Trees -I/home/joseph/git/Patterns/Park/Waters -I/home/joseph/git/Patterns/Park/Factories -I/home/joseph/git/Patterns/Park/..  -std=c++11 -g -o CMakeFiles/factory_lib.dir/Factories/RandomFactory.cpp.o -c /home/joseph/git/Patterns/Park/Factories/RandomFactory.cpp",
+  "command": "/usr/bin/g++  -I/home/joseph/git/Patterns/Park/Animals -I/home/joseph/git/Patterns/Park/Trees -I/home/joseph/git/Patterns/Park/Waters -I/home/joseph/git/Patterns/Park/Factories -I/home/joseph/git/Patterns/Park/Observers -I/home/joseph/git/Patterns/Park/..  -std=c++11 -g -o CMakeFiles/factory_lib.dir/Factories/RandomFactory.cpp.o -c /home/joseph/git/Patterns/Park/Factories/RandomFactory.cpp",
   "file": "/home/joseph/git/Patterns/Park/Factories/RandomFactory.cpp"
 },
 {
   "directory": "/home/joseph/git/Patterns/Park/build",
-  "command": "/usr/bin/g++  -I/home/joseph/git/Patterns/Park/Animals -I/home/joseph/git/Patterns/Park/Trees -I/home/joseph/git/Patterns/Park/Waters -I/home/joseph/git/Patterns/Park/Factories -I/home/joseph/git/Patterns/Park/..  -std=c++11 -g -o CMakeFiles/factory_lib.dir/Factories/TreeFactory.cpp.o -c /home/joseph/git/Patterns/Park/Factories/TreeFactory.cpp",
+  "command": "/usr/bin/g++  -I/home/joseph/git/Patterns/Park/Animals -I/home/joseph/git/Patterns/Park/Trees -I/home/joseph/git/Patterns/Park/Waters -I/home/joseph/git/Patterns/Park/Factories -I/home/joseph/git/Patterns/Park/Observers -I/home/joseph/git/Patterns/Park/..  -std=c++11 -g -o CMakeFiles/factory_lib.dir/Factories/TreeFactory.cpp.o -c /home/joseph/git/Patterns/Park/Factories/TreeFactory.cpp",
   "file": "/home/joseph/git/Patterns/Park/Factories/TreeFactory.cpp"
 },
 {
   "directory": "/home/joseph/git/Patterns/Park/build",
-  "command": "/usr/bin/g++  -I/home/joseph/git/Patterns/Park/Animals -I/home/joseph/git/Patterns/Park/Trees -I/home/joseph/git/Patterns/Park/Waters -I/home/joseph/git/Patterns/Park/Factories -I/home/joseph/git/Patterns/Park/..  -std=c++11 -g -o CMakeFiles/factory_lib.dir/Trees/Tree.cpp.o -c /home/joseph/git/Patterns/Park/Trees/Tree.cpp",
+  "command": "/usr/bin/g++  -I/home/joseph/git/Patterns/Park/Animals -I/home/joseph/git/Patterns/Park/Trees -I/home/joseph/git/Patterns/Park/Waters -I/home/joseph/git/Patterns/Park/Factories -I/home/joseph/git/Patterns/Park/Observers -I/home/joseph/git/Patterns/Park/..  -std=c++11 -g -o CMakeFiles/factory_lib.dir/Trees/Tree.cpp.o -c /home/joseph/git/Patterns/Park/Trees/Tree.cpp",
   "file": "/home/joseph/git/Patterns/Park/Trees/Tree.cpp"
 },
 {
   "directory": "/home/joseph/git/Patterns/Park/build",
-  "command": "/usr/bin/g++  -I/home/joseph/git/Patterns/Park/Animals -I/home/joseph/git/Patterns/Park/Trees -I/home/joseph/git/Patterns/Park/Waters -I/home/joseph/git/Patterns/Park/Factories -I/home/joseph/git/Patterns/Park/..  -std=c++11 -g -o CMakeFiles/factory_lib.dir/Trees/Birch.cpp.o -c /home/joseph/git/Patterns/Park/Trees/Birch.cpp",
+  "command": "/usr/bin/g++  -I/home/joseph/git/Patterns/Park/Animals -I/home/joseph/git/Patterns/Park/Trees -I/home/joseph/git/Patterns/Park/Waters -I/home/joseph/git/Patterns/Park/Factories -I/home/joseph/git/Patterns/Park/Observers -I/home/joseph/git/Patterns/Park/..  -std=c++11 -g -o CMakeFiles/factory_lib.dir/Trees/Birch.cpp.o -c /home/joseph/git/Patterns/Park/Trees/Birch.cpp",
   "file": "/home/joseph/git/Patterns/Park/Trees/Birch.cpp"
 },
 {
   "directory": "/home/joseph/git/Patterns/Park/build",
-  "command": "/usr/bin/g++  -I/home/joseph/git/Patterns/Park/Animals -I/home/joseph/git/Patterns/Park/Trees -I/home/joseph/git/Patterns/Park/Waters -I/home/joseph/git/Patterns/Park/Factories -I/home/joseph/git/Patterns/Park/..  -std=c++11 -g -o CMakeFiles/factory_lib.dir/Trees/Cedar.cpp.o -c /home/joseph/git/Patterns/Park/Trees/Cedar.cpp",
+  "command": "/usr/bin/g++  -I/home/joseph/git/Patterns/Park/Animals -I/home/joseph/git/Patterns/Park/Trees -I/home/joseph/git/Patterns/Park/Waters -I/home/joseph/git/Patterns/Park/Factories -I/home/joseph/git/Patterns/Park/Observers -I/home/joseph/git/Patterns/Park/..  -std=c++11 -g -o CMakeFiles/factory_lib.dir/Trees/Cedar.cpp.o -c /home/joseph/git/Patterns/Park/Trees/Cedar.cpp",
   "file": "/home/joseph/git/Patterns/Park/Trees/Cedar.cpp"
 },
 {
   "directory": "/home/joseph/git/Patterns/Park/build",
-  "command": "/usr/bin/g++  -I/home/joseph/git/Patterns/Park/Animals -I/home/joseph/git/Patterns/Park/Trees -I/home/joseph/git/Patterns/Park/Waters -I/home/joseph/git/Patterns/Park/Factories -I/home/joseph/git/Patterns/Park/..  -std=c++11 -g -o CMakeFiles/Factory_trial.dir/main.cpp.o -c /home/joseph/git/Patterns/Park/main.cpp",
+  "command": "/usr/bin/g++  -I/home/joseph/git/Patterns/Park/Animals -I/home/joseph/git/Patterns/Park/Trees -I/home/joseph/git/Patterns/Park/Waters -I/home/joseph/git/Patterns/Park/Factories -I/home/joseph/git/Patterns/Park/Observers -I/home/joseph/git/Patterns/Park/..  -std=c++11 -g -o CMakeFiles/Factory_trial.dir/main.cpp.o -c /home/joseph/git/Patterns/Park/main.cpp",
   "file": "/home/joseph/git/Patterns/Park/main.cpp"
 }
 ]

@@ -18,18 +18,25 @@ std::string Cat::getSpecies()
 
 geometry_msgs::Point Cat::getPosition()
 {
-    return _position;
+    return _currentPosition;
 }
 
 void Cat::setPosition(geometry_msgs::Point position)
 {
-    _position = position;
+    _spawnPosition = position;
+    _currentPosition = position;
 }
 
 void Cat::Move()
 {
-    _position.x = _position.x + 4;
-    _position.y = _position.y + 4;
+    _currentPosition.x = _currentPosition.x + 4;
+    _currentPosition.y = _currentPosition.y + 4;
+
+    if(abs(_currentPosition.x - _spawnPosition.x) > 100 || abs(_currentPosition.y - _spawnPosition.y) > 100)
+        {
+            //notify(*this);
+            notify();
+        }
 
 }
 

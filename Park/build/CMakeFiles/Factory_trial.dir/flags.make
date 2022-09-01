@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/g++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/joseph/git/Patterns/Park/Animals -I/home/joseph/git/Patterns/Park/Trees -I/home/joseph/git/Patterns/Park/Waters -I/home/joseph/git/Patterns/Park/Factories -I/home/joseph/git/Patterns/Park/..
+CXX_INCLUDES = -I/home/joseph/git/Patterns/Park/Animals -I/home/joseph/git/Patterns/Park/Trees -I/home/joseph/git/Patterns/Park/Waters -I/home/joseph/git/Patterns/Park/Factories -I/home/joseph/git/Patterns/Park/Observers -I/home/joseph/git/Patterns/Park/..
 
 CXX_FLAGS =  -std=c++11 -g
 

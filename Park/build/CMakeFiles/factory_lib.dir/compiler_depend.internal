@@ -1176,7 +1176,6 @@ CMakeFiles/factory_lib.dir/Observers/ParkRanger.cpp.o
  /usr/include/stdc-predef.h
  /home/joseph/git/Patterns/Park/Observers/ParkRanger.h
  /home/joseph/git/Patterns/Park/Observers/Observers.h
- /home/joseph/git/Patterns/Park/Animals/dog.h
  /home/joseph/git/Patterns/Park/Animals/Animal.h
  /usr/include/c++/7/iostream
  /usr/include/x86_64-linux-gnu/c++/7/bits/c++config.h
@@ -1349,10 +1348,8 @@ CMakeFiles/factory_lib.dir/Observers/ParkRanger.cpp.o
  /usr/include/c++/7/bits/stl_bvector.h
  /usr/include/c++/7/bits/vector.tcc
  /home/joseph/git/Patterns/Park/Observers/Observers.h
- /home/joseph/git/Patterns/Park/Animals/cat.h
  /home/joseph/git/Patterns/Park/Park.h
  /home/joseph/git/Patterns/Park/type.h
- /home/joseph/git/Patterns/Park/Animals/Animal.h
  /home/joseph/git/Patterns/Park/Trees/Tree.h
  /usr/include/c++/7/math.h
  /usr/include/c++/7/cmath

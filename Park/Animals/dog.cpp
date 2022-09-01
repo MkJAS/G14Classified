@@ -18,16 +18,16 @@ std::string Dog::getSpecies()
 
 geometry_msgs::Point Dog::getPosition()
 {
-    return _position;
+    return _currentPosition;
 }
 
 void Dog::setPosition(geometry_msgs::Point position)
 {
-    _position = position;
+    _spawnPosition = position;
 }
 
 void Dog::Move()
 {
-    _position.x = _position.x + 2;
-    _position.y = _position.y + 2;
+    _currentPosition.x = _currentPosition.x + 2;
+    _currentPosition.y = _currentPosition.y + 2;
 }

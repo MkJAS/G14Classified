@@ -11,7 +11,7 @@ class Park
 {
 public:
     Park();
-    void spawnQuadrants(std::vector<Quadrant> quadrants);
+    void populateQuadrants(std::vector<Quadrant> quadrants);
     void getStats(int quadNum);
 
     std::vector<Quadrant> _quadrants;

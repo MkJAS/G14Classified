@@ -26,12 +26,14 @@ public:
     {
         for(auto e:_watchers)
         {
-            e->update();
+            //e->update(*this)
+            e->update(this);
         }
     }
 
 protected:
-    geometry_msgs::Point _position;
+    geometry_msgs::Point _currentPosition;
+    geometry_msgs::Point _spawnPosition;
     std::vector<Observer*> _watchers;
 };
 

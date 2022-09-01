@@ -6,8 +6,9 @@ Park::Park()
     
 }
 
-void Park::spawnQuadrants(std::vector<Quadrant> quadrants)
+void Park::populateQuadrants(std::vector<Quadrant> quadrants)
 {
+        // _quadrants.clear();
         _q1 = quadrants[0];
         _q2 = quadrants[1];
         _q3 = quadrants[2];
@@ -17,9 +18,13 @@ void Park::spawnQuadrants(std::vector<Quadrant> quadrants)
 
 void Park::getStats(int quadNum)
 {
-    if (quadNum<0 || quadNum>3)
+    // int quad = 0;
+    // std::cout<<"Please choose quadrant."<<std::endl;
+    // std::cin>>quad;
+    while (quadNum<0 || quadNum>3)
     {
         std::cout<<"Selection Error! Please choose between 0-3."<<std::endl;
+        // std::cin>>quad;
     }
     int cedars = 0;
     int birch = 0;

@@ -10,6 +10,7 @@ include_directories(
     Trees
     Waters
     Factories
+    Observers
     ../
 )
 

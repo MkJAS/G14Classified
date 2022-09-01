@@ -30,7 +30,7 @@ Park ParkFactory::buildPark()
     q4.centre = {100,-100};
     std::vector<std::vector<Tree*>> treeSpawns;
     std::vector<std::vector<Animal*>> animalSpawns;
-    std::vector<Quadrant> quadrants = {q1,q2,q3,q4};
+    std::vector<Quadrant> ParkQuadrants = {q1,q2,q3,q4};
 
     std::vector<std::string> treeSettings;
     std::vector<std::string> animalSettings;
@@ -48,18 +48,19 @@ Park ParkFactory::buildPark()
         treeSettings.push_back(forest);
         animalSettings.push_back(animals);
     }
-    treeSpawns = spawnTrees(treeSettings);
-    animalSpawns = spawnAnimals(animalSettings);
+    treeSpawns = spawnTrees(treeSettings, ParkQuadrants);
+    animalSpawns = spawnAnimals(animalSettings, ParkQuadrants);
     for(int i=0;i<4;i++)
     {
-        quadrants[i].plantlife = treeSpawns[i];
-        quadrants[i].wildlife = animalSpawns[i];
+        ParkQuadrants[i].plantlife = treeSpawns[i];
+        ParkQuadrants[i].wildlife = animalSpawns[i];
     }
-    _park.spawnQuadrants(quadrants);
-    return _park;
+    Park park;
+    park.populateQuadrants(ParkQuadrants);
+    return park;
 }
 
-std::vector<std::vector<Tree*>> ParkFactory::spawnTrees(std::vector<std::string> treeSettings)
+std::vector<std::vector<Tree*>> ParkFactory::spawnTrees(std::vector<std::string> treeSettings, std::vector<Quadrant> ParkQuadrants)
 {
     std::vector<std::vector<Tree*>> quadrants;
     enum Settings{
@@ -102,7 +103,7 @@ std::vector<std::vector<Tree*>> ParkFactory::spawnTrees(std::vector<std::string>
     return quadrants;
 }
 
-std::vector<std::vector<Animal*>> ParkFactory::spawnAnimals(std::vector<std::string> animalSettings)
+std::vector<std::vector<Animal*>> ParkFactory::spawnAnimals(std::vector<std::string> animalSettings, std::vector<Quadrant> ParkQuadrants)
 {
     std::vector<std::vector<Animal*>> quadrants;
     enum Settings{
@@ -124,7 +125,7 @@ std::vector<std::vector<Animal*>> ParkFactory::spawnAnimals(std::vector<std::str
             case BALANCEDs:
             {
                 _zoo = BalancedFactory::Instance();
-                geometry_msgs::Point start = {0,0};
+                geometry_msgs::Point start = {ParkQuadrants[i].centre.x,ParkQuadrants[i].centre.y};
                 zoo = _zoo->createAnimal(start);  
             break;
             }
