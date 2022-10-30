@@ -6,7 +6,7 @@
 #include <mutex>
 
 
-class Threader
+class __declspec(dllexport) Threader
 {
 public:
 
