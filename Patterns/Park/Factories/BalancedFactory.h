@@ -1,8 +1,10 @@
 #ifndef BALANCEDFACTORY_H
 #define BALANCEDFACTORY_H
 
-
+#define _USE_MATH_DEFINES
+#include <cmath>
 #include "factory.h"
+
 
 class BalancedFactory:public AnimalFactory
 {

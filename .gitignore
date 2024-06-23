@@ -33,6 +33,8 @@
 
 /out
 \out
+\build
+/build
 
 #Visual Studio
 *x64

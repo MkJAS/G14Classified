@@ -1,4 +1,0 @@
-/home/joseph/git/Patterns/Park/build/CMakeFiles/rebuild_cache.dir
-/home/joseph/git/Patterns/Park/build/CMakeFiles/edit_cache.dir
-/home/joseph/git/Patterns/Park/build/CMakeFiles/factory_lib.dir
-/home/joseph/git/Patterns/Park/build/CMakeFiles/Factory_trial.dir
