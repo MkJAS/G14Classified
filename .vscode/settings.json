@@ -1,3 +1,4 @@
 {
-    "cmake.sourceDirectory": "C:/dev/G14Classified/Patterns/Park"
+    "cmake.useCMakePresets": "always",
+    "cmake.sourceDirectory": "C:/Users/Joseph/Documents/dev/G14Classified/Patterns/Park"
 }
